@@ -1,0 +1,32 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+title = "Burag Cetinkaya | Software Engineering Manager, Entrepreneur, Technologist"
+author = "Burag Cetinkaya"
+languageCode = "en-us"
+contnetDir = "content"
+themesDir = "themes"
+theme = "hugo-goa"
+
+[params]
+ description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five."
+ author = "Burag Cetinkaya"
+ intro = "Startup Guru Extraordinaire"
+ authorimage = "headshot.jpg" 
+
+ [params.social]
+  github = "buragc"
+  linkedin = "buragc"
+  twitter = "buragc"
+  email = "burag@burag.com"
+
+  [[menu.main]]
+    name = "blog"
+    weight = 100
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    weight = 300
+    url = "/coderag/"
