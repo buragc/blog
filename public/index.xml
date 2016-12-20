@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Burag Cetinkaya | Software Engineering Manager, Entrepreneur, Technologist</title>
+    <link>http://replace-this-with-your-hugo-site.com/index.xml</link>
+    <description>Recent content on Burag Cetinkaya | Software Engineering Manager, Entrepreneur, Technologist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Dec 2016 22:30:45 -0500</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>work</title>
+      <link>http://replace-this-with-your-hugo-site.com/work/</link>
+      <pubDate>Mon, 19 Dec 2016 22:30:45 -0500</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/work/</guid>
+      <description>
+
+&lt;h2 id=&#34;meetup&#34;&gt;Meetup&lt;/h2&gt;
+
+&lt;p&gt;I currently work at Meetup as the Director of Core &amp;amp; Data Engineering to make it easier for people to self-organize around their passions. We are responsible for running the services, data pipelines and recommendations that power Meetup.&lt;/p&gt;
+
+&lt;p&gt;Some of my work includes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensuring engineering alignment with product&lt;/li&gt;
+&lt;li&gt;Empowering engineering managers to help us make Meetup better and faster&lt;/li&gt;
+&lt;li&gt;Overseeing data processing pipeline to Google Cloud.&lt;/li&gt;
+&lt;li&gt;Re-platforming Meetup by moving to a microservices architecture&lt;/li&gt;
+&lt;li&gt;Aligning team structures and development processes for continuous deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;curia&#34;&gt;Curia&lt;/h2&gt;
+
+&lt;p&gt;Making the right connections with other professionals may literally change one&amp;rsquo;s career. If you attend conferences, meetups or other networking events you may have noticed how hard it is to make meaningful connections in a short amount of time. &lt;a href=&#34;http://www.getcuria.com&#34;&gt;Curia&lt;/a&gt; helps people discover the right professionals to connect with. After a beta period in NYC and SF, I joined Meetup in 2016 where I work with teams to improve the in-meetup experience using a similar approach.&lt;/p&gt;
+
+&lt;h2 id=&#34;epam-systems&#34;&gt;EPAM Systems&lt;/h2&gt;
+
+&lt;p&gt;I worked as the Director of Technology Solutions at EPAM Systems (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM&amp;rsquo;s clients to develop and introduce software solutions &amp;amp; work with EPAM&amp;rsquo;s UX and Dev teams teams to ensure successful design and delivery of software products.&lt;/p&gt;
+
+&lt;p&gt;I focused on Big Data, APIs and mobile solutions to create state of the art engagement systems in healthcare and life sciences.&lt;/p&gt;
+
+&lt;p&gt;Some of my work at EPAM included:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spearheaded the creation of EPAM&amp;rsquo;s Healthcare Big Data Accelerator.&lt;/li&gt;
+&lt;li&gt;Designed and managed the development of Mobile Health Plan Application accelerator for EPAM. Including all product management, technology strategy and development.&lt;/li&gt;
+&lt;li&gt;Created the overall initial architecture of a genomics start-up that is changing the way personalized care is delivered around the world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;netsoft-usa&#34;&gt;Netsoft USA&lt;/h2&gt;
+
+&lt;p&gt;I worked at Netsoft USA, a boutique product development company in NYC acquired by EPAM Systems in 2014, in various roles ranging from Developer to Principal Architect. During my time at Netsoft I;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developed clinical big-data strategy of a Fortune 500 healthcare organization.&lt;/li&gt;
+&lt;li&gt;Architected and lead the development one of the first Accountable Care Organization SaaS product.&lt;/li&gt;
+&lt;li&gt;Lead the development of a Personal Health Record platform that is later acquired by a large insurer.&lt;/li&gt;
+&lt;li&gt;Created a programming framework that introduced concepts like Tasks, Futures, Parallel Programming&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

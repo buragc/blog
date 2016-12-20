@@ -1,32 +1,54 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "Burag Cetinkaya | Software Engineering Manager, Entrepreneur, Technologist"
-author = "Burag Cetinkaya"
-languageCode = "en-us"
-contnetDir = "content"
+# Site settings
+baseurl = "https://example.org/"
 themesDir = "themes"
-theme = "hugo-goa"
+languageCode = "en-us"
+title = "Hugo Cactus Theme"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "spf13"
 
 [params]
- description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five."
- author = "Burag Cetinkaya"
- intro = "Startup Guru Extraordinaire"
- authorimage = "headshot.jpg" 
+  name = "John Doe"
+  description = "Describe your website"
+  bio = "Blogger - Programmer - Gopher"
+  # Enter optionally your twitter account
+  twitter = "Your Twitter account"
+  enableRSS = true
 
- [params.social]
-  github = "buragc"
-  linkedin = "buragc"
-  twitter = "buragc"
-  email = "burag@burag.com"
+  # Add custom assets with their paths relative to the static folder
+  customCSS = []
+  customJS  = []
 
-  [[menu.main]]
-    name = "blog"
-    weight = 100
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    weight = 300
-    url = "/coderag/"
+  # The variables below are optionally too and can be used to
+  # translate or customize each string of the theme.
+
+  # Navigation links
+  home = ""
+  about = ""
+  subscribe = ""
+  # Pagination links
+  olderPosts = ""
+  newerPosts = ""
+  readMore = ""
+  copyright = ""
+  # Sharing options and author information in posts
+  aboutAuthor = "I'm an enthusiastic gopher."
+  tweet = ""
+  share = ""
+  # 404 page
+  title404 = ""
+  subtitle404 = ""
+
+  # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+  iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
