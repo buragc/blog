@@ -2,7 +2,7 @@
 baseurl = "https://example.org/"
 themesDir = "themes"
 languageCode = "en-us"
-title = "Hugo Cactus Theme"
+title = "Burag Cetinkaya"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -10,9 +10,9 @@ googleAnalytics = ""
 disqusShortname = "spf13"
 
 [params]
-  name = "John Doe"
-  description = "Describe your website"
-  bio = "Blogger - Programmer - Gopher"
+  name = "Burag Cetinkaya"
+  description = "Engineering Management | Software | Entrepreneurship"
+  bio = "Technology Leader. Programmer. Soccer fan."
   # Enter optionally your twitter account
   twitter = "Your Twitter account"
   enableRSS = true
@@ -25,8 +25,10 @@ disqusShortname = "spf13"
   # translate or customize each string of the theme.
 
   # Navigation links
-  home = ""
-  about = ""
+  home = "home"
+  about = "about"
+  blog = "posts"
+  work = "work"
   subscribe = ""
   # Pagination links
   olderPosts = ""
@@ -44,11 +46,11 @@ disqusShortname = "spf13"
   # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
   iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "circle"
+    socialIconStyle = "rounded"
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/"
-    facebook = "https://www.facebook.com/"
-    github   = "https://www.github.com/"
-    dribble  = "https://www.dribbble.com/"
+    twitter  = "https://www.twitter.com/buragc"
+    email    =  "mailto:burag@burag.com"
+    github   = "https://www.github.com/buragc"
+    linkedin = "https://www.linkedin.com/in/buragc"
