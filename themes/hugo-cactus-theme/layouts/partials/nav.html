@@ -5,13 +5,13 @@
 	{{ end }}
 
 	{{ if ne $url "blog/" }}
-		<a href='{{ .Site.BaseURL }}posts'>{{ with .Site.Params.blog }}{{ . }}{{ else }}posts{{ end }}</a>
+		<a href='{{ .Site.BaseURL }}post'>{{ with .Site.Params.blog }}{{ . }}{{ else }}posts{{ end }}</a>
 	{{ end }}
 	{{ if ne $url "work/" }}
 		<a href='{{ .Site.BaseURL }}work'>{{ with .Site.Params.work }}{{ . }}{{ else }}work{{ end }}</a>
 	{{ end }}
-	{{ if ne $url "me/" }}
-		<a href='{{ .Site.BaseURL }}me'>{{ with .Site.Params.me }}{{ . }}{{ else }}me{{ end }}</a>
+	{{ if ne $url "projects/" }}
+		<a href='{{ .Site.BaseURL }}projects'>{{ with .Site.Params.projects }}{{ . }}{{ else }}projects{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}

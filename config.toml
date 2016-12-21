@@ -26,7 +26,7 @@ disqusShortname = "spf13"
 
   # Navigation links
   home = "home"
-  about = "about"
+  about = "about me"
   blog = "posts"
   work = "work"
   subscribe = ""

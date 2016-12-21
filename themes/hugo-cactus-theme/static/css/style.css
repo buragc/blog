@@ -126,7 +126,7 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #5badf0;
-	font-size: 13px;
+	font-size: 22px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
@@ -207,9 +207,9 @@ em, i { font-style: italic; }
 	color: #aaa;
 }
 
-.welcome {
-	text-align: center;
-	font: normal 18px/1.7em "Helvetica Neue",Helvetica,Arial,sans-serif;
+.aboutme p {
+	text-align: left;
+	font: normal 17px/1.6em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
