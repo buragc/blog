@@ -139,7 +139,7 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 660px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
@@ -446,20 +446,20 @@ Post List
 }
 
 .post {
-	margin: 80px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 #post-meta {
 	font-size: 13px;
 	font-weight: bold;
 	line-height: 1.4;
-	border-top: 1px solid #eee;
+	
 	padding-top: 40px;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
 	margin-top: 40px;
 	color:#444;
-	border-bottom: 1px solid #eee;
+	
 }
 
 #post-meta div span {
@@ -651,6 +651,8 @@ h2.month {
 
 
 /* CUSTOM ADDITIONS */
+
+
 
 #social {
     display: flex;

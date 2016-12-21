@@ -21,23 +21,28 @@
                 <section id="post-body">
                     {{ .Content }}
                 </section>
-            </article>
-            <footer id="post-meta" class="clearfix">
+            </article>            
+
+            
+            <footer id="post-meta" class="clearfix !noborder">
                 {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-                        <img class="avatar" src="{{ .Site.BaseURL }}images/avatar.png">
+                        <img class="avatar" src="{{ .Site.BaseURL }}images/headshot.jpg">
                         <div>
                             <span class="dark">{{ .Site.Params.name }}</span>
                             <span>{{ .Site.Params.aboutAuthor }}</span>
                         </div>
                     {{ with .Site.Params.twitter }}</a>{{ end }}
-                <section id="sharing">
-                    {{ partial "share.html" . }}
-                </section>
+                
+                    <section id="sharing">
+                        {{ partial "share.html" . }}
+                    </section>                
             </footer>
-
-            {{ template "_internal/disqus.html" . }}
-
-            {{ partial "latest-posts.html" . }}
+            {{ if .Params.showcomments }}                        
+                {{ template "_internal/disqus.html" . }}
+            {{ end }}
+            {{ if (not .Params.hidelatestposts) }}
+                {{ partial "latest-posts.html" . }}
+            {{ end }}
             {{ partial "footer.html" . }}
         </section>
 

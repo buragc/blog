@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://burag.com/"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Burag Cetinkaya"
@@ -7,15 +7,15 @@ theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = "solutionsthinking"
 
 [params]
   name = "Burag Cetinkaya"
   description = "Engineering Management | Software | Entrepreneurship"
   bio = "Technology Leader. Programmer. Soccer fan."
   # Enter optionally your twitter account
-  twitter = "Your Twitter account"
-  enableRSS = true
+  twitter = "buragc"
+  enableRSS = false
 
   # Add custom assets with their paths relative to the static folder
   customCSS = []
@@ -29,16 +29,16 @@ disqusShortname = "spf13"
   about = "about me"
   blog = "posts"
   work = "work"
-  subscribe = ""
+  subscribe = "Subscribe"
   # Pagination links
   olderPosts = ""
   newerPosts = ""
   readMore = ""
-  copyright = ""
+  copyright = "Copyright 2017 Burag Cetinkaya"
   # Sharing options and author information in posts
-  aboutAuthor = "I'm an enthusiastic gopher."
-  tweet = ""
-  share = ""
+  aboutAuthor = "I am the core & data engineering director at Meetup. Love managing engineering teams and writing code."
+  tweet = "Tweet"
+  share = "Share"
   # 404 page
   title404 = ""
   subtitle404 = ""
