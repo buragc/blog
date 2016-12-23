@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://burag.com/"
+baseurl = "https://www.burag.com/"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Burag Cetinkaya"
