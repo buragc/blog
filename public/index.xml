@@ -2,359 +2,160 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Burag Cetinkaya</title>
-    <link>https://burag.com/index.xml</link>
+    <link>https://www.burag.com/</link>
     <description>Recent content on Burag Cetinkaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright 2017 Burag Cetinkaya</copyright>
-    <lastBuildDate>Thu, 22 Dec 2016 22:09:20 -0500</lastBuildDate>
-    <atom:link href="https://burag.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2017 22:30:45 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.burag.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>work</title>
+      <link>https://www.burag.com/work/</link>
+      <pubDate>Sat, 01 Jul 2017 22:30:45 -0500</pubDate>
+      
+      <guid>https://www.burag.com/work/</guid>
+      <description>Abaka (July 2017 - Present) I co-founded Abaka.io to create a better patient experience and help address some of the problems we all face as patients in the healthcare ecosystem.
+At Abaka, I wear multiple hats ranging from engineering to marketing. In the current stage most of my time is spent on engineering our platform.
+&amp;ndash;
+Meetup (April 2016 - July 2017) I worked at Meetup.com as the Director of Core &amp;amp; Data Engineering to make it easier for people to self-organize around their passions.</description>
+    </item>
+    
+    <item>
+      <title>Micro Services for engineering growth</title>
+      <link>https://www.burag.com/post/micro-services-engineering-growth/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burag.com/post/micro-services-engineering-growth/</guid>
+      <description>Organizational impact of micro-service architecture Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like Martin Fowler have pointed out , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.</description>
+    </item>
     
     <item>
       <title>Conversational UIs are coming</title>
-      <link>https://burag.com/post/conversational-uis-are-coming/</link>
+      <link>https://www.burag.com/post/conversational-uis-are-coming/</link>
       <pubDate>Thu, 22 Dec 2016 22:09:20 -0500</pubDate>
       
-      <guid>https://burag.com/post/conversational-uis-are-coming/</guid>
-      <description>&lt;p&gt;Conversational style UIs are gaining more popularity. In an era where people are living and breathing text messages and have an attention span for only nuggets of information, I foresee these conversational apps to become the norm.&lt;/p&gt;
-
-&lt;p&gt;I would even argue that as speech and video recognition gets more and more accurate, we will have these conversational apps morph into virtual assistants.&lt;/p&gt;
-
-&lt;p&gt;Check out this news app that can take a news piece and break it down and make it a conversation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qz.com/613700/its-here-quartzs-first-news-app-for-iphone/&#34;&gt;http://qz.com/613700/its-here-quartzs-first-news-app-for-iphone/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/conversational-uis-are-coming/</guid>
+      <description>Conversational style UIs are gaining more popularity. In an era where people are living and breathing text messages and have an attention span for only nuggets of information, I foresee these conversational apps to become the norm.
+I would even argue that as speech and video recognition gets more and more accurate, we will have these conversational apps morph into virtual assistants.
+Check out this news app that can take a news piece and break it down and make it a conversation.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://burag.com/about/</link>
+      <link>https://www.burag.com/about/</link>
       <pubDate>Tue, 20 Dec 2016 18:59:56 -0500</pubDate>
       
-      <guid>https://burag.com/about/</guid>
+      <guid>https://www.burag.com/about/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>work</title>
-      <link>https://burag.com/work/</link>
-      <pubDate>Mon, 19 Dec 2016 22:30:45 -0500</pubDate>
-      
-      <guid>https://burag.com/work/</guid>
-      <description>
-
-&lt;h1 id=&#34;meetup-2016-present&#34;&gt;Meetup (2016-Present)&lt;/h1&gt;
-
-&lt;p&gt;I currently work at Meetup as the Director of Core &amp;amp; Data Engineering to make it easier for people to self-organize around their passions. We are responsible for running the services, data pipelines and recommendations that power Meetup.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Some of my work includes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ensuring engineering alignment with product&lt;/li&gt;
-&lt;li&gt;Empowering engineering managers to help us make Meetup better and faster&lt;/li&gt;
-&lt;li&gt;Overseeing data processing pipeline to Google Cloud.&lt;/li&gt;
-&lt;li&gt;Re-platforming Meetup by moving to a microservices architecture&lt;/li&gt;
-&lt;li&gt;Aligning team structures and development processes for continuous deployment.
-&lt;br/&gt;
-&amp;ndash;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;curia-2014-2016&#34;&gt;Curia (2014-2016)&lt;/h1&gt;
-
-&lt;p&gt;Making the right connections with other professionals may literally change one&amp;rsquo;s career. If you attend conferences, meetups or other networking events you may have noticed how hard it is to make meaningful connections in a short amount of time. &lt;a href=&#34;http://www.getcuria.com&#34;&gt;Curia&lt;/a&gt; helps people discover the right professionals to connect with. After a beta period in NYC and SF, I joined Meetup in 2016 where I work with teams to improve the in-meetup experience using a similar approach.
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;h1 id=&#34;epam-systems-2013-2016&#34;&gt;EPAM Systems (2013-2016)&lt;/h1&gt;
-
-&lt;p&gt;I worked as the Director of Technology Solutions at EPAM Systems (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM&amp;rsquo;s clients to develop and introduce software solutions &amp;amp; work with EPAM&amp;rsquo;s UX and Dev teams teams to ensure successful design and delivery of software products.&lt;/p&gt;
-
-&lt;p&gt;I focused on Big Data, APIs and mobile solutions to create state of the art engagement systems in healthcare and life sciences.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Some of my work at EPAM included:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Spearheaded the creation of EPAM&amp;rsquo;s Healthcare Big Data Accelerator.&lt;/li&gt;
-&lt;li&gt;Designed and managed the development of Mobile Health Plan Application accelerator for EPAM. Including all product management, technology strategy and development.&lt;/li&gt;
-&lt;li&gt;Created the overall initial architecture of a genomics start-up that is changing the way personalized care is delivered around the world.
-&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;h1 id=&#34;netsoft-usa-until-2012&#34;&gt;Netsoft USA (until 2012)&lt;/h1&gt;
-
-&lt;p&gt;I worked at Netsoft USA, a boutique product development company in NYC acquired by EPAM Systems in 2014, in various roles ranging from Developer to Principal Architect. During my time at Netsoft I;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Developed clinical big-data strategy of a Fortune 500 healthcare organization.&lt;/li&gt;
-&lt;li&gt;Architected and lead the development one of the first Accountable Care Organization SaaS product.&lt;/li&gt;
-&lt;li&gt;Lead the development of a Personal Health Record platform that is later acquired by a large insurer.&lt;/li&gt;
-&lt;li&gt;Created a programming framework that introduced concepts like Tasks, Futures, Parallel Programming&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Impact of bad UX in the physical world</title>
-      <link>https://burag.com/post/bad-ux-at-ticket-kiosks-in-italy/</link>
+      <link>https://www.burag.com/post/bad-ux-at-ticket-kiosks-in-italy/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/bad-ux-at-ticket-kiosks-in-italy/</guid>
-      <description>
-
-&lt;h3 id=&#34;ux-in-italy-18-screens-to-buy-a-train-ticket&#34;&gt;UX in Italy: 18 screens to buy a train ticket&lt;/h3&gt;
-
-&lt;p&gt;I was in Cinque Terre region in north eastern Italy for a week last month. It is a &lt;a href=&#34;http://whc.unesco.org/en/list/826&#34;&gt;UNESCO Heritage Site&lt;/a&gt; and I definitely recommend it, especially if you like hiking.&lt;/p&gt;
-
-&lt;p&gt;Part of our plan was to take trains to neighboring towns and do one-way hikes. Every time we approached the train station to buy our tickets, we ended up seeing a long line of tourists and locals queued up, waiting in 95F degree weather frustrated.&lt;/p&gt;
-
-&lt;p&gt;Each ticket sale through the kiosk took an average of 2.5 minutes from start to finish. To understand why, take a look at the screens I had to navigate through to get two tickets (with no mistakes, or navigating back)&lt;/p&gt;
-
-&lt;p&gt;For a country that leads the way in design, I was really disappointed to see this user experience. I am hoping that it will be improved for my next visit next year.&lt;/p&gt;
-
-&lt;p&gt;Here are the screens of the kiosk machine:&lt;/p&gt;
-
-&lt;p&gt;Step 1. Choose your language&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44abae3df286e27f09148_1473530572334__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 2. Just a warning&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44af46a49635bed4aa275_1473530623222__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 3. What do you want to do?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44b20e3df286e27f09428_1473530661773__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 4. Where are you going to? There are no options here but you can tap to type the station name.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44b50bebafba39be18900_1473530709328__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 5. Ok, let&amp;rsquo;s type the station name. Notice the redundant &amp;ldquo;Arrival&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44b8444024343d192b0bb_1473530762154__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 6. When? Wouldn&amp;rsquo;t it make sense to list the next few trains on the top of this screen to cover at least 80% of the use cases with one tap rather than selecting a date AND a time slot?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44bb2b8a79baee744d057_1473530807973__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 7. Wait for it&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44bed414fb51a88adf186_1473530872854__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 8. Here are a few trains or you can choose to see &amp;ldquo;all the solutions&amp;rdquo;. There is no explanation of what &amp;ldquo;2nd class&amp;rdquo; actually means. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44c135016e199d1d68c5a_1473530905243__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 9. Just checking we are still cool&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44c63d1758ebde02bce17_1473530999573__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 10. You actually cannot get an assigned seat, but this screen just pop-up with 0 alternative flows. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44c9dd482e9b1b35ab27d_1473531051804__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 11. One of the few screens that actually make sense.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44ce8f5e231385728ded4_1473531116074__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 12. Just checking you are ready to purchase it! I understand the corporate code/business use case, wouldn&amp;rsquo;t it be easier to get that out of the way in the beginning by understanding the intent?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d44d0fe3df286e27f0a59e_1473531163939__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 13. A warning&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46a779de4bbc2c544d7c1_1473538684433__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 14. How do you want to pay?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46a93725e2540621df962_1473538713939__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 15. Put your card in&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46aac725e2540621dfa5a_1473538735588__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 16. Let us process&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46ac9725e2540621dfb94_1473538766421__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 17. Take your card out!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46ae03e00be430c51138d_1473538791337__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Step 18. Finally take your ticket and go :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://burag.com/img/ux/static_567717000e4c117c4c6423f8_56950c1c5a5668523b807d66_57d46afa9de4bbc2c544dc25_1473538815365__img.jpg_&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hopefully someone will do something about this sooner than later but if you are planning on a trip to the region and want to take the train factor in an extra 15 minutes or so, since the lines form and grow very quickly.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/bad-ux-at-ticket-kiosks-in-italy/</guid>
+      <description>UX in Italy: 18 screens to buy a train ticket I was in Cinque Terre region in north eastern Italy for a week last month. It is a UNESCO Heritage Site and I definitely recommend it, especially if you like hiking.
+Part of our plan was to take trains to neighboring towns and do one-way hikes. Every time we approached the train station to buy our tickets, we ended up seeing a long line of tourists and locals queued up, waiting in 95F degree weather frustrated.</description>
     </item>
     
     <item>
       <title>Social Media during a military coup</title>
-      <link>https://burag.com/post/social-media-and-military-coup/</link>
+      <link>https://www.burag.com/post/social-media-and-military-coup/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/social-media-and-military-coup/</guid>
-      <description>&lt;p&gt;I’ve never been a very active user of social media in the past 10 years except for sharing the occasional funny puppy and soccer video with friends. As a result, every time I’ve read articles and blog posts about how social media was a catalyst in some sort of change, I was quite skeptical.&lt;/p&gt;
-
-&lt;p&gt;I guess you have to live it to see it.&lt;/p&gt;
-
-&lt;p&gt;Just a few days ago my parents were visiting Istanbul when a group of generals in the military attempted a coup on the government. Following the handbook of coups, their first order of business was to seize the government TV station followed by private media outlets such as newspapers, tv stations etc. and read declarations of total control over the country. This was followed by an attempt to block social media. At this point, it was almost impossible to get a good understanding of what was really happening through traditional media.&lt;/p&gt;
-
-&lt;p&gt;Trying to get more up-to-date information, I went through a dozen social apps/web sites and eventually figured out what was happening in the country. Events kept unfolding very quickly and seeing a constant stream of updates, getting news from friends and family that they were safe was a big relief. It turns out the whole thing was also planned using a social app. When all was said and done, I had cycled through 6 apps for hours. So here is a list of apps that were used:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What’s App — used by the military group to communicate (as later exposed by Turkish newspapers)&lt;/li&gt;
-&lt;li&gt;FaceTime — used by the President of Turkey to urge the public to get on the streets and stop the attempted military coup&lt;/li&gt;
-&lt;li&gt;Twitter — used by foreign news correspondents and Turkish public to share/speculate news&lt;/li&gt;
-&lt;li&gt;Periscope — used by the Turkish people to live broadcast the horrific 5–6 hour period from different parts of the country&lt;/li&gt;
-&lt;li&gt;Facebook — used by friends and family to let others now their whereabouts&lt;/li&gt;
-&lt;li&gt;Reddit — to get a perspective on what is happening without a specific media outlet bias&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After getting hooked on these apps for hours, I have witnessed the power of social media and social apps at times of emergency &amp;amp; chaos. They literally help shape the world by enabling people to communicate freely, organize and take action. If for every couple thousand silly posts describing what people are eating and complain about 1st world problems I can see a life saved, I will gladly take all social media apps. I am a convert.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/social-media-and-military-coup/</guid>
+      <description>I’ve never been a very active user of social media in the past 10 years except for sharing the occasional funny puppy and soccer video with friends. As a result, every time I’ve read articles and blog posts about how social media was a catalyst in some sort of change, I was quite skeptical.
+I guess you have to live it to see it.
+Just a few days ago my parents were visiting Istanbul when a group of generals in the military attempted a coup on the government.</description>
     </item>
     
     <item>
       <title>Managers should not be messengers</title>
-      <link>https://burag.com/post/managers-not-messengers/</link>
+      <link>https://www.burag.com/post/managers-not-messengers/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/managers-not-messengers/</guid>
-      <description>&lt;p&gt;This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. &lt;/p&gt;
-
-&lt;p&gt;If you are an engineering manager and find yourself in this situation; change the company or change your company.&lt;/p&gt;
-
-&lt;p&gt;You need to ask for things you can manage. What do we mean by &amp;ldquo;manage&amp;rdquo; ? A well defined area in which you have accountability &lt;strong&gt;and&lt;/strong&gt; decision making ability. To make sure you are set for success, you should look for a few indicators:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What are the boundaries?&lt;/li&gt;
-&lt;li&gt;Is there a clear objective I am managing towards?&lt;/li&gt;
-&lt;li&gt;What is my accountability?&lt;/li&gt;
-&lt;li&gt;What is my decision making ability?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These 4 simple questions may give away if you have your manager title but you are merely a communication channel that carries the message back and forth between the decision maker and the engineer. I call these folks messengers. This is not a role anyone signs up for. It usually shapes up to be this way after the fact, due to existing processes and culture of the company.&lt;/p&gt;
-
-&lt;p&gt;However, engineering managers have the opportunity to change this. Ask for more accountability and decision making authority. &lt;/p&gt;
-
-&lt;p&gt;If you find yourself in this situation; just ask and take on  1 more area of true management every quarter. You will be amazed how things start changing for the better. &lt;/p&gt;
-
-&lt;p&gt;If you are a Director or VP of Engineering and you find yourself making these decisions, it is time to change. The more responsibility you give away, the more you gain in terms of direction setting and higher order thinking space.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/managers-not-messengers/</guid>
+      <description>This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. If you are an engineering manager and find yourself in this situation; change the company or change your company.
+You need to ask for things you can manage. What do we mean by &amp;ldquo;manage&amp;rdquo; ? A well defined area in which you have accountability and decision making ability.</description>
     </item>
     
     <item>
       <title>Brushing up on programming</title>
-      <link>https://burag.com/post/brushing-up-on-programming/</link>
+      <link>https://www.burag.com/post/brushing-up-on-programming/</link>
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/brushing-up-on-programming/</guid>
-      <description>&lt;p&gt;When was the last time you took a week to brush up on the most basic of algorithms and your understanding of data structures? As we get into the rhythm of using our most beloved frameworks, language features and libraries sometimes we do lose touch with the most basic building blocks of computer science. &lt;/p&gt;
-
-&lt;p&gt;&amp;lsquo;So what?&amp;rsquo; You may ask. When you are designing and building software that will be used by tens of millions of people, it is important to understand the trade-offs. A more efficient algorithm can make the difference between a sub-second and 3 second response time on your mobile app or web site. &lt;/p&gt;
-
-&lt;p&gt;Taking a few hours every quarter or six months to brush up on the most basic building blocks such as DFS, BFS, sorting and checksum algorithms, hash tables, binary trees and tries can help us look at day to day challenges under a new light and come up with alternative solutions. &lt;/p&gt;
-
-&lt;p&gt;Can you fit 3 hours of brush-up time into your schedule next quarter?&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/brushing-up-on-programming/</guid>
+      <description>When was the last time you took a week to brush up on the most basic of algorithms and your understanding of data structures? As we get into the rhythm of using our most beloved frameworks, language features and libraries sometimes we do lose touch with the most basic building blocks of computer science. &amp;lsquo;So what?&amp;rsquo; You may ask. When you are designing and building software that will be used by tens of millions of people, it is important to understand the trade-offs.</description>
     </item>
     
     <item>
       <title>Onwards and Upwards</title>
-      <link>https://burag.com/post/onwards-upwards/</link>
+      <link>https://www.burag.com/post/onwards-upwards/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/onwards-upwards/</guid>
-      <description>&lt;p&gt;No, it&amp;rsquo;s not an April&amp;rsquo;s fool joke! My last day at EPAM Systems (NYSE: EPAM) was April 1st. I am starting a new position at Meetup.com as the Director of Core and Data Engineering.  &lt;/p&gt;
-
-&lt;p&gt;After spending 10+ years in creating solutions and leading teams in healthcare, I wanted to take on new challenges to broaden my horizons, learn more about a different industry and create solutions that help people in a different way. &lt;/p&gt;
-
-&lt;p&gt;I am extremely excited about my new position. I am looking forward to posting more about our work at Meetup, our experiences in creating a large scale system and culture in the coming months.&lt;/p&gt;
-
-&lt;p&gt;Onwards and upwards.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/onwards-upwards/</guid>
+      <description>No, it&amp;rsquo;s not an April&amp;rsquo;s fool joke! My last day at EPAM Systems (NYSE: EPAM) was April 1st. I am starting a new position at Meetup.com as the Director of Core and Data Engineering. After spending 10+ years in creating solutions and leading teams in healthcare, I wanted to take on new challenges to broaden my horizons, learn more about a different industry and create solutions that help people in a different way.</description>
     </item>
     
     <item>
       <title>HIMSS 2016</title>
-      <link>https://burag.com/post/himss-2016/</link>
+      <link>https://www.burag.com/post/himss-2016/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/himss-2016/</guid>
-      <description>&lt;p&gt;I was at HIMSS with EPAM for the past few days. It’s been fun and exhausting at the same time. Here are some observations:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Population health has turned into a buzzword. Everybody talks about it but very few companies can actually describe how they will move the needle.&lt;/li&gt;
-&lt;li&gt;Big Data is yet another buzzword. Without clear definition, everybody is claiming they do big data.&lt;/li&gt;
-&lt;li&gt;Collaboration tools; from data aggregation to secure messaging across providers have matured quite a bit. This opens up the opportunity to generate real insights from existing data using analytics and share them with providers and patients to make the largest impact.&lt;/li&gt;
-&lt;li&gt;One area I was disappointed in is the number of digital engagement platforms for patients. They were grossly underrepresented.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here is my prediction for 2016 in Health Tech; Companies that sit on vast data sets will start partnering/acquiring start-ups that can make sense out of the data in specific niches and we will see quite a bit of consolidation.&lt;/p&gt;
-
-&lt;p&gt;Exciting times in health technology!&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/himss-2016/</guid>
+      <description>I was at HIMSS with EPAM for the past few days. It’s been fun and exhausting at the same time. Here are some observations:
+ Population health has turned into a buzzword. Everybody talks about it but very few companies can actually describe how they will move the needle. Big Data is yet another buzzword. Without clear definition, everybody is claiming they do big data. Collaboration tools; from data aggregation to secure messaging across providers have matured quite a bit.</description>
     </item>
     
     <item>
       <title>graphs all around us</title>
-      <link>https://burag.com/post/graphs-all-around-us/</link>
+      <link>https://www.burag.com/post/graphs-all-around-us/</link>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/graphs-all-around-us/</guid>
-      <description>&lt;p&gt;Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like &lt;a href=&#34;http://www.neo4j.com&#34;&gt;Neo4j&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have been working with NoSQL databases in the past 2 years but I just started getting into graph databases in the past 6 months and it totally changed my perception of the value of data.&lt;/p&gt;
-
-&lt;p&gt;My side project/startup &lt;a href=&#34;http://www.getcuria.com&#34;&gt;Curia&lt;/a&gt; is all about connecting the right people at events and conferences. This is where Neo4j came in very handy. Utilizing it as a secondary, purpose-built database allows us to focus on finding the right connections on a graph in blazing speeds.&lt;/p&gt;
-
-&lt;p&gt;Having attended a few hands-on training courses on Neo4j I can confidently say that every programmer should think about what is locked in the structure of their database and what can be unlocked with the use of graphs. You may be surprised.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/graphs-all-around-us/</guid>
+      <description>Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like Neo4j.
+I have been working with NoSQL databases in the past 2 years but I just started getting into graph databases in the past 6 months and it totally changed my perception of the value of data.</description>
     </item>
     
     <item>
       <title>Architecture of Stackoverflow</title>
-      <link>https://burag.com/post/stackflow-architecture/</link>
+      <link>https://www.burag.com/post/stackflow-architecture/</link>
       <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/stackflow-architecture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.dev-metal.com/architecture-stackoverflow/&#34; title=&#34;The Architecture of StackOverflow&#34;&gt;The Architecture of StackOverflow&lt;/a&gt; A couple of months ago, I read a comment on &lt;a href=&#34;http://news.ycombinator.com&#34;&gt;Hacker News&lt;/a&gt; about how .NET is a poor technology choice for startups for performance reasons. I disagree wholeheartedly. Not because .NET is always the best choice, but because characterizing a platform/language as a poor choice for performance without the context is non-sensical. Today, for most web based applications, performance ranks lower compared to licensing cost, talent pool, existing frameworks, etc. Bad design, cookie-cutter approach and a lack of proper architecture are more likely candidates for performance issues rather than the underlying technology. Here is a case to demonstrate it. StackOverflow is serving about 500M page views a month and they are able to do that on a grand total of dozen servers. They also happen to use .NET for all of this. How is this possible having made a &amp;ldquo;poor decision&amp;rdquo; by going with .NET? &lt;a href=&#34;http://www.dev-metal.com/architecture-stackoverflow/&#34;&gt;This video&lt;/a&gt; explains how StackOverflow was able to use .NET to create a high-performing web app. Clearly the development team members at StackOverflow think about their design/architecture quite a bit and do not follow &amp;ldquo;out of the box&amp;rdquo; patterns. Sometimes, they even use anti-patterns. But, they do all of this consciously with specific design goals in mind. They ended up writing some libraries that were a better fit for their uses rather than the mainstream ones. They even open sourced most of these libraries and shared it on GitHub. Just like the saying goes; &amp;ldquo;It&amp;rsquo;s the poor craftsman who blames his tools&amp;rdquo;. Any technology, when used properly can perform well. It&amp;rsquo;s the architect&amp;rsquo;s job to pick and apply it the right way. Next time you hear a developer/architect blame the technology for poor results, you should ask: &amp;ldquo;What have you tried to address the issue?&amp;rdquo;&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/stackflow-architecture/</guid>
+      <description>The Architecture of StackOverflow A couple of months ago, I read a comment on Hacker News about how .NET is a poor technology choice for startups for performance reasons. I disagree wholeheartedly. Not because .NET is always the best choice, but because characterizing a platform/language as a poor choice for performance without the context is non-sensical. Today, for most web based applications, performance ranks lower compared to licensing cost, talent pool, existing frameworks, etc.</description>
     </item>
     
     <item>
       <title>Dynamic resource allocation in your data center</title>
-      <link>https://burag.com/post/dynamic-resources-in-enterprise/</link>
+      <link>https://www.burag.com/post/dynamic-resources-in-enterprise/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/dynamic-resources-in-enterprise/</guid>
-      <description>&lt;p&gt;By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case. The situation in most enterprise systems however, is not that great. It is not rare for me to run into a horizontally scaled solution that is not efficiently utilizing the computing resources. Take the following example; a software solution that serves an end to end business process is created as a single service. When the volume increases on the client, the service is scaled by creating an exact replica and using a load balancer to reduce the load. To elaborate on the issue at hand, I will use a hypothetical car insurance company. As you may already know, there are some basic concepts in car insurance business such as finding a quote that fits your needs, comparing them with competitors, signing up for a policy and finally paying for it. If everything goes well and you don&amp;rsquo;t get into an accident, your interaction with the insurance company may just end there. Their &amp;ldquo;service&amp;rdquo; oriented software may be running on a server that looks like the following: &lt;a href=&#34;http://buragc.files.wordpress.com/2014/01/drawing0.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2014/01/drawing0.png?w=482&#34; alt=&#34;Image&#34; /&gt; &lt;/a&gt; When this company starts becoming successful and gets &lt;strong&gt;permanent growth, &lt;/strong&gt;the current computing capacity may no longer serve its needs. What I mean by permanent growth is a net gain on the  number of users. Say, from X to 2X. This growth is a pretty happy and desirable scenario which can be the result of geographic expansion, an acquisition or a marketing campaign. Any sane architect would just double the capacity, distribute the traffic with a load balancer go on with life. The server stacks may look something like this after the capacity upgrade: &lt;a href=&#34;http://buragc.files.wordpress.com/2014/01/drawing1.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2014/01/drawing1.png?w=650&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; While this is going on, an X-Ray of the business processes may show us some service resource usage distribution that looks like this. &lt;a href=&#34;http://buragc.files.wordpress.com/2014/01/drawing2.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2014/01/drawing2.png?w=650&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; Now lets think about a slightly more interesting scenario. Hurricane Sandy happens. A lot of cars are damaged and as a result the organization is experiencing a spike in the number of claim requests it gets. Since the servers are tuned to handle the current capacity (with a foreseen +/- 5% elasticity) things start slowing down. Customers who are on the phone with the customer service reps start experiencing a longer wait time. Mobile phone based claim submission requests start timing out. Overall, customer satisfaction goes down and there is very little this organization can do about it because they cannot procure and deploy new services overnight and configure their client software to handle the spike. If they had access to cloud resources, they could certainly grow the number of servers temporarily into the cloud and turn them down later. However, in the absence of that there is not much this organization can do. This is exactly why a DRA like framework is needed in the enterprise. Imagine, if this organization could temporarily limit (or even turn off) its capacity to sell more policies and re-allocate those computing resources to the business function that it needs at the moment. The service allocation could look something like this: &lt;a href=&#34;http://buragc.files.wordpress.com/2014/01/drawing4.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2014/01/drawing4.png?w=650&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; This re-configuration could save the company thousands of unhappy customers and more importantly ensure that the business resources were utilized to the maximum when they were needed. This concept is not entirely new. There are similarities to Cory Isacson&amp;rsquo;s &lt;a href=&#34;http://www.amazon.com/gp/product/0137137974/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0137137974&amp;amp;linkCode=as2&amp;amp;tag=watchesunder200-20&#34;&gt;Software Pipelines and SOA: Releasing the Power of Multi-Core Processing&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=watchesunder200-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0137137974&#34; alt=&#34;&#34; /&gt;Software Pipelines and SOA and cloud computing in general. Some advanced organization with very good engineering teams are able to achieve this scenario by maximizing technologies like Chef/Puppet in the cloud. However, it is not an easily accessible to the common enterprise. What if there was an application/services framework that facilitated this? I believe that a solution like this would truly align the business&amp;rsquo; needs with IT capabilities of the enterprise.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/dynamic-resources-in-enterprise/</guid>
+      <description>By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case.</description>
     </item>
     
     <item>
       <title>Fixing Tmobile&#39;s activation form</title>
-      <link>https://burag.com/post/fixing-tmobile-activation-form/</link>
+      <link>https://www.burag.com/post/fixing-tmobile-activation-form/</link>
       <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/fixing-tmobile-activation-form/</guid>
-      <description>&lt;p&gt;I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it &lt;a href=&#34;http://www.google.com/googlevoice/about.html&#34;&gt;has many advantages such as ringing many phone numbers&lt;/a&gt;. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can &lt;a href=&#34;http://www.amazon.com/gp/product/B00BUV7C9A/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B00BUV7C9A&amp;amp;linkCode=as2&amp;amp;tag=books0984-20&#34;&gt;purchase an Obi for about $50 on Amazon&lt;/a&gt;. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, &lt;a href=&#34;http://productforums.google.com/forum/#!msg/voice/sIk31W88SHA/A17A3KtsfIoJ&#34;&gt;You need to first port your number to a wireless carrier&lt;/a&gt; and then to Google Voice. I chose to do this process by using TMobile. I ordered a &lt;a href=&#34;http://www.amazon.com/T-Mobile-Tmobile-Mobile-Prepaid-Activation/dp/B003X7RY06/ref=pd_cp_cps_0&#34;&gt;Prepaid SIM card activtion kit from Amazon&lt;/a&gt; for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at &lt;a href=&#34;http://prepaid-phones.t-mobile.com/prepaid-activate&#34;&gt;http://prepaid-phones.t-mobile.com/prepaid-activate&lt;/a&gt;. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &amp;ldquo;hidden&amp;rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE) &lt;a href=&#34;http://buragc.files.wordpress.com/2013/10/capture2.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2013/10/capture2.png?w=487&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; Now hit the inspect element button to start looking at the form: &lt;a href=&#34;http://buragc.files.wordpress.com/2013/10/inspectelement.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; Hit Control + F to bring up the search box in the form: &lt;a href=&#34;http://buragc.files.wordpress.com/2013/10/find.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2013/10/find.png?w=400&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; Now search for &amp;ldquo;autofill&amp;rdquo; you will something similar to the following: &lt;a href=&#34;http://buragc.files.wordpress.com/2013/10/inputhidden.png&#34;&gt;&lt;img src=&#34;http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487&#34; alt=&#34;Image&#34; /&gt;&lt;/a&gt; Double click on the &amp;ldquo;autorefill&amp;rdquo; part of value=&amp;ldquo;autorefill&amp;rdquo; and change it to value=&amp;ldquo;autorefill1&amp;rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/fixing-tmobile-activation-form/</guid>
+      <description>I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it has many advantages such as ringing many phone numbers. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone.</description>
     </item>
     
     <item>
       <title>Pomodoro Technique</title>
-      <link>https://burag.com/post/pomodoro-for-remote-workers/</link>
+      <link>https://www.burag.com/post/pomodoro-for-remote-workers/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://burag.com/post/pomodoro-for-remote-workers/</guid>
-      <description>&lt;p&gt;I am a big fan of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;pomodoro technique&lt;/a&gt; when the number of things I have to work on start exceeding 5. The technique boils down to having a strict disciple of working for 25 minutes without any interruptions (yes, email and twitter count!) and then taking a small break immediately after. Creating chunks of works like this works for me since I can keep track of how far I am into finishing an activity. Today I came across &lt;a href=&#34;http://markcampbell.me/tutorial/2013/05/23/how-to-work-remotely.html&#34;&gt;an article on Hacker News that has some tips for working remotely as a software developer&lt;/a&gt;. Here the author goes with a &lt;a href=&#34;http://en.wikipedia.org/wiki/Timeboxing&#34;&gt;timeboxed approach&lt;/a&gt; and uses the pomodoro technique to get a lot more done especially when you don&amp;rsquo;t have any outside stimuli that act as clues to stop working on a task.   Check out the original article by clicking on the link below. &lt;a href=&#34;http://markcampbell.me/tutorial/2013/05/23/how-to-work-remotely.html&#34;&gt;How to Work Remotely as a Software Developer&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>https://www.burag.com/post/pomodoro-for-remote-workers/</guid>
+      <description>I am a big fan of the pomodoro technique when the number of things I have to work on start exceeding 5. The technique boils down to having a strict disciple of working for 25 minutes without any interruptions (yes, email and twitter count!) and then taking a small break immediately after. Creating chunks of works like this works for me since I can keep track of how far I am into finishing an activity.</description>
     </item>
     
   </channel>

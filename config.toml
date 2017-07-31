@@ -12,7 +12,7 @@ disqusShortname = "solutionsthinking"
 [params]
   name = "Burag Cetinkaya"
   description = "Engineering Management | Software | Entrepreneurship"
-  bio = "Technology Leader. Programmer. Soccer fan."
+  bio = "Technology Leader. Developer. Soccer fan."
   # Enter optionally your twitter account
   twitter = "buragc"
   enableRSS = false
@@ -36,7 +36,7 @@ disqusShortname = "solutionsthinking"
   readMore = ""
   copyright = "Copyright 2017 Burag Cetinkaya"
   # Sharing options and author information in posts
-  aboutAuthor = "I am the core & data engineering director at Meetup. Love managing engineering teams and writing code."
+  aboutAuthor = "I am the co-founder and VP of Engineering of Abaka.io. I love building products with great teams."
   tweet = "Tweet"
   share = "Share"
   # 404 page

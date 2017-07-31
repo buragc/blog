@@ -6,19 +6,29 @@ draft = false
 showpagemeta = false
 hidelatestposts = true
 
-date = "2016-12-19T22:30:45-05:00"
+date = "2017-07-01T22:30:45-05:00"
 +++
 
-# Meetup (2016-Present)
-I currently work at Meetup as the Director of Core & Data Engineering to make it easier for people to self-organize around their passions. We are responsible for running the services, data pipelines and recommendations that power Meetup.
+# Abaka (July 2017 - Present)
+
+I co-founded [Abaka.io](www.abaka.io) to create a better patient experience and help address some of the problems we all face as patients in the healthcare ecosystem. 
+
+At Abaka, I wear multiple hats ranging from engineering to marketing. In the current stage most of my time is spent on engineering our platform.
+
+--
+
+# Meetup (April 2016 - July 2017)
+I worked at [Meetup.com](www.meetup.com) as the Director of Core & Data Engineering to make it easier for people to self-organize around their passions. My teams are responsible for running all back-end services, data pipelines and recommendations that power Meetup.
 
 **Some of my work includes:**
 
-* Ensuring engineering alignment with product
-* Empowering engineering managers to help us make Meetup better and faster
-* Overseeing data processing pipeline to Google Cloud.
-* Re-platforming Meetup by moving to a microservices architecture
-* Aligning team structures and development processes for continuous deployment.
+* Ensuring engineering organization alignment with product
+* Hiring and growing engineering managers
+* Overseeing data processing pipeline migration from on-premise to Google Cloud
+* Helping Meetup replatform from a monolithic codebase to micro-services
+* Leading the Core Platform team that serves all micro-service platform needs of the organization
+* Developed a micro-service discovery platform to help engineering teams discover and utilize micro-services faster
+* and I also loved hiring and building a team of top notch data, machine learning, platform and product engineers
 <br/>
 --
 
@@ -30,7 +40,7 @@ Making the right connections with other professionals may literally change one's
 
 # EPAM Systems (2013-2016)
 
-I worked as the Director of Technology Solutions at EPAM Systems (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM's clients to develop and introduce software solutions & work with EPAM's UX and Dev teams teams to ensure successful design and delivery of software products.
+I worked as the Director of Technology Solutions at [EPAM Systems](www.epam.com) (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM's clients to develop and introduce software solutions & work with EPAM's UX and Dev teams teams to ensure successful design and delivery of software products.
 
 I focused on Big Data, APIs and mobile solutions to create state of the art engagement systems in healthcare and life sciences.
 

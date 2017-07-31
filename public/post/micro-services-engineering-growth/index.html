@@ -1,0 +1,302 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Burag Cetinkaya">
+		<meta name="description" content="Engineering Management | Software | Entrepreneurship">
+		<meta name="generator" content="Hugo 0.24.1" />
+		<title>Micro Services for engineering growth &middot; Burag Cetinkaya</title>
+		<link rel="shortcut icon" href="https://www.burag.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.burag.com/css/style.css">
+		<link rel="stylesheet" href="https://www.burag.com/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://www.burag.com/css/monosocialiconsfont.css">
+		
+
+		
+
+		<meta property="og:title" content="Micro Services for engineering growth" />
+<meta property="og:description" content="A positive side effect of working with micro-services" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.burag.com/post/micro-services-engineering-growth/" />
+
+
+
+<meta property="article:published_time" content="2017-06-15T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-06-15T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="Micro Services for engineering growth">
+<meta itemprop="description" content="A positive side effect of working with micro-services">
+
+
+<meta itemprop="dateModified" content="2017-06-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="661">
+
+
+
+<meta itemprop="keywords" content="" />
+
+	    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Micro Services for engineering growth"/>
+<meta name="twitter:title" content="Micro Services for engineering growth"/>
+<meta name="twitter:description" content="A positive side effect of working with micro-services"/>
+<meta name="twitter:site" content="@https://www.twitter.com/buragc"/>
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.burag.com/'> <span class="arrow">←</span>home</a>
+	
+
+	
+		<a href='https://www.burag.com/post'>posts</a>
+	
+	
+		<a href='https://www.burag.com/work'>work</a>
+	
+	
+		<a href='https://www.burag.com/projects'>projects</a>
+	
+
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Micro Services for engineering growth</h1>
+                    <h2 class="headline">
+                    June 15, 2017 
+                    <br>
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<h1 id="organizational-impact-of-micro-service-architecture">Organizational impact of micro-service architecture</h1>
+
+<p>Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like <a href="https://martinfowler.com/bliki/MicroservicePrerequisites.html">Martin Fowler have pointed out</a> , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.</p>
+
+<p>Since the technical comparison of monoliths and micro services has been done several times (<a href="https://medium.freecodecamp.org/rest-in-peace-to-microservices-or-not-6d097b6c8279">here</a> and  <a href="https://stackoverflow.com/questions/33041733/microservices-vs-monolithic-architecture">here</a>) I will not go into whether or not you should pick a micro services architecture. Instead, I want to focus on what happens to your engineering team communication, responsibilities and overall impact on your engineering organization if you were to pick a micro-services architecture.</p>
+
+<h2 id="team-driven-vs-standardized-architecture">Team driven vs. standardized architecture</h2>
+
+<p>One of the big decisions an engineering organization makes as they go micro services route is to decide whether or not all micro-services will look the same or if teams will be given the freedom to use the tools, languages and architecture that makes sense for them.</p>
+
+<p>I am all for experimenting and picking a good fit for team and the engineering organization based on the makeup of the engineering team. As such, I have preferred giving teams the freedom to choose their own implementation strategy as long as the overall ecosystem adhered to a few key rules that impacted ease of communication between services, log collection/analysis and monitoring.</p>
+
+<h2 id="decentralized-decisioning">Decentralized decisioning</h2>
+
+<p>By giving teams the ability to pick and choose what they think is best for their use case, engineering organizations essentially start pushing technical decisioning from a centralized model to a more distributed one where decisions are made at the edges.</p>
+
+<p>The first thing that this does is to spark more architectural discussions, debates and designs within your team. This creates an opportunity (and a good challenge) for engineers to start communicating their ideas to other engineers more effectively and helps them develop their verbal and written communication skils.</p>
+
+<h2 id="making-experience-years-count">Making experience years count</h2>
+
+<p>If you end up with teams that are autonomous in their design and architecture decisions your engineers will probably end up making some unproven assumptions but as long as these are incremental, small micro-services that are released to production in a controlled way as part of A/B tests, your engineers will quickly start getting feedback in the form of hard-data points about their assumptions, architectural decisions and implementation choices.</p>
+
+<p>Compared to a monolithic architecture where junior engineers are expected to incrementally introduce new functionality by replicating existing behaviors, micro-services give them the ability to quickly learn based on real-world feedback.</p>
+
+<p>As a result, the experience your engineers start gaining actually will mean something because they are constantly learning new things and forming their views on good engineering based on real world evidence rather than executing a cookie cutter approach over and over for years.</p>
+
+<p><img src="http://memeguy.com/photos/images/applying-to-entry-level-jobs-that-require-years-experience-62749.jpg" alt="Experience" title="Experience" /></p>
+
+<h2 id="it-s-not-all-rainbows-and-unicorns">It&rsquo;s not all rainbows and unicorns</h2>
+
+<p>All this sounds great and at this point you may be wondering why would any organization not choose to go with micro-services if it has all these positive impacts on engineers.</p>
+
+<p>The answer is in the numbers; as your organization scales the number of services from a handful to a few dozen, discovery, documentation, deprecation, tracing and overall coordination among teams require the creation of a well oiled machine.</p>
+
+<p>Setting up the necessary systems, processes and encouraging the desired positive team behavior is no small feat. As such, a concious effort needs to be made to understand the needs of teams, find solutions that work internally and then learn from these experiments to improve.</p>
+
+<p>I would even argue that <strong>if you cannot afford to dedicate the time/engineering management capacity to restructure your organization, create efficient communication paths and introduce systematic improvements you probably should not roll out a micro-services architecture</strong>. Simply because, if not tended to, it would be dice roll to expect to reap the benefits I highlighted above.</p>
+
+                </section>
+            </article>            
+
+            
+            <footer id="post-meta" class="clearfix !noborder">
+                <a href="https://twitter.com/buragc">
+                        <img class="avatar" src="https://www.burag.com/images/headshot.jpg">
+                        <div>
+                            <span class="dark">Burag Cetinkaya</span>
+                            <span>I am the co-founder and VP of Engineering of Abaka.io. I love building products with great teams.</span>
+                        </div>
+                    </a>
+                
+                    <section id="sharing">
+                        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.burag.com%2fpost%2fmicro-services-engineering-growth%2f - Micro%20Services%20for%20engineering%20growth by @buragc"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                    </section>                
+            </footer>
+                                    
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'solutionsthinking';
+    var disqus_identifier = 'https:\/\/www.burag.com\/post\/micro-services-engineering-growth\/';
+    var disqus_title = 'Micro Services for engineering growth';
+    var disqus_url = 'https:\/\/www.burag.com\/post\/micro-services-engineering-growth\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="https://www.burag.com/work/">work<aside class="dates">Jul 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/micro-services-engineering-growth/">Micro Services for engineering growth<aside class="dates">Jun 15</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/conversational-uis-are-coming/">Conversational UIs are coming<aside class="dates">Dec 22</aside></a>
+        </li>
+        
+   
+    
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/bad-ux-at-ticket-kiosks-in-italy/">Impact of bad UX in the physical world<aside class="dates">Oct 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/social-media-and-military-coup/">Social Media during a military coup<aside class="dates">Jul 15</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/managers-not-messengers/">Managers should not be messengers<aside class="dates">Jun 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/brushing-up-on-programming/">Brushing up on programming<aside class="dates">May 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/onwards-upwards/">Onwards and Upwards<aside class="dates">Apr 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.burag.com/post/himss-2016/">HIMSS 2016<aside class="dates">Mar 3</aside></a>
+        </li>
+        
+   
+</ul>
+            
+            
+<footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="mailto:burag@burag.com">
+        roundedemail
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/buragc">
+        roundedgithub
+    </a>
+    
+    <a class="symbol" href="https://www.linkedin.com/in/buragc">
+        roundedlinkedin
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/buragc">
+        roundedtwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        Copyright 2017 Burag Cetinkaya
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://www.burag.com/js/main.js"></script>
+<script src="https://www.burag.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>
