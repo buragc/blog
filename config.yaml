@@ -1,4 +1,4 @@
-baseURL: https://burag.com
+baseURL: https://www.burag.com
 languageCode: en-us
 title: Personal website and blog
 theme: hugo-refresh
@@ -70,11 +70,11 @@ params:
     # option to specify the title in the homepage
     title: Burag Cetinkaya
     # option to specify the subtitle in the homepage
-    subtitle: Engineering Manager. Developer. Soccer Fan.
+    subtitle: Engineering Leader. 👨‍💻 ⚽ 🍔 📚. I love building things.
     # option to specify image in the homepage
     image: "/images/avataaars.png" # worker.svg 
     # option to specify the width of the image in the homepage
-    imageWidth: 500px
+    imageWidth: 400px
 
   # footer options
   footer:

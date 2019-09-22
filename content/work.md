@@ -1,11 +1,6 @@
 +++
 slug = "/work"
 title = "work"
-showcomments = false
-draft = false
-showpagemeta = false
-hidelatestposts = true
-
 date = "2019-09-20T22:30:45-05:00"
 +++
 
