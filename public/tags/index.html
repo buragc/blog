@@ -126,7 +126,7 @@
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Conversational UIs are coming
       </h3>
       <p class="summary-summary">Conversational style UIs are gaining more popularity. In an era where people are living and breathing text messages and have an attention span for only nuggets of information, I foresee these conversational apps to become the norm.
@@ -159,7 +159,7 @@ http://qz.com/613700/its-here-quartzs-first-news-app-for-iphone/
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         graphs all around us
       </h3>
       <p class="summary-summary">Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like Neo4j.
@@ -192,7 +192,7 @@ Having attended a few hands-on training courses on Neo4j I can confidently say t
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Micro Services for engineering growth
       </h3>
       <p class="summary-summary"> Organizational impact of micro-service architecture Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like Martin Fowler have pointed out , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.
@@ -218,7 +218,7 @@ I would even argue that if you cannot afford to dedicate the time/engineering ma
   </div><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Managers should not be messengers
       </h3>
       <p class="summary-summary">This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. If you are an engineering manager and find yourself in this situation; change the company or change your company.
@@ -235,7 +235,7 @@ However, engineering managers have the opportunity to change this. Ask for more 
   </div><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Dynamic resource allocation in your data center
       </h3>
       <p class="summary-summary">By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case. The situation in most enterprise systems however, is not that great. It is not rare for me to run into a horizontally scaled solution that is not efficiently utilizing the computing resources. Take the following example; a software solution that serves an end to end business process is created as a single service. When the volume increases on the client, the service is scaled by creating an exact replica and using a load balancer to reduce the load. To elaborate on the issue at hand, I will use a hypothetical car insurance company. As you may already know, there are some basic concepts in car insurance business such as finding a quote that fits your needs, comparing them with competitors, signing up for a policy and finally paying for it. If everything goes well and you don&amp;rsquo;t get into an accident, your interaction with the insurance company may just end there. Their &amp;ldquo;service&amp;rdquo; oriented software may be running on a server that looks like the following:  When this company starts becoming successful and gets permanent growth, the current computing capacity may no longer serve its needs. What I mean by permanent growth is a net gain on the number of users. Say, from X to 2X. This growth is a pretty happy and desirable scenario which can be the result of geographic expansion, an acquisition or a marketing campaign. Any sane architect would just double the capacity, distribute the traffic with a load balancer go on with life. The server stacks may look something like this after the capacity upgrade:  While this is going on, an X-Ray of the business processes may show us some service resource usage distribution that looks like this.  Now lets think about a slightly more interesting scenario. Hurricane Sandy happens. A lot of cars are damaged and as a result the organization is experiencing a spike in the number of claim requests it gets. Since the servers are tuned to handle the current capacity (with a foreseen &#43;/- 5% elasticity) things start slowing down. Customers who are on the phone with the customer service reps start experiencing a longer wait time. Mobile phone based claim submission requests start timing out. Overall, customer satisfaction goes down and there is very little this organization can do about it because they cannot procure and deploy new services overnight and configure their client software to handle the spike. If they had access to cloud resources, they could certainly grow the number of servers temporarily into the cloud and turn them down later. However, in the absence of that there is not much this organization can do. This is exactly why a DRA like framework is needed in the enterprise. Imagine, if this organization could temporarily limit (or even turn off) its capacity to sell more policies and re-allocate those computing resources to the business function that it needs at the moment. The service allocation could look something like this:  This re-configuration could save the company thousands of unhappy customers and more importantly ensure that the business resources were utilized to the maximum when they were needed. This concept is not entirely new. There are similarities to Cory Isacson&amp;rsquo;s Software Pipelines and SOA: Releasing the Power of Multi-Core ProcessingSoftware Pipelines and SOA and cloud computing in general. Some advanced organization with very good engineering teams are able to achieve this scenario by maximizing technologies like Chef/Puppet in the cloud. However, it is not an easily accessible to the common enterprise. What if there was an application/services framework that facilitated this? I believe that a solution like this would truly align the business&amp;rsquo; needs with IT capabilities of the enterprise.
@@ -265,7 +265,7 @@ However, engineering managers have the opportunity to change this. Ask for more 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Dynamic resource allocation in your data center
       </h3>
       <p class="summary-summary">By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case. The situation in most enterprise systems however, is not that great. It is not rare for me to run into a horizontally scaled solution that is not efficiently utilizing the computing resources. Take the following example; a software solution that serves an end to end business process is created as a single service. When the volume increases on the client, the service is scaled by creating an exact replica and using a load balancer to reduce the load. To elaborate on the issue at hand, I will use a hypothetical car insurance company. As you may already know, there are some basic concepts in car insurance business such as finding a quote that fits your needs, comparing them with competitors, signing up for a policy and finally paying for it. If everything goes well and you don&amp;rsquo;t get into an accident, your interaction with the insurance company may just end there. Their &amp;ldquo;service&amp;rdquo; oriented software may be running on a server that looks like the following:  When this company starts becoming successful and gets permanent growth, the current computing capacity may no longer serve its needs. What I mean by permanent growth is a net gain on the number of users. Say, from X to 2X. This growth is a pretty happy and desirable scenario which can be the result of geographic expansion, an acquisition or a marketing campaign. Any sane architect would just double the capacity, distribute the traffic with a load balancer go on with life. The server stacks may look something like this after the capacity upgrade:  While this is going on, an X-Ray of the business processes may show us some service resource usage distribution that looks like this.  Now lets think about a slightly more interesting scenario. Hurricane Sandy happens. A lot of cars are damaged and as a result the organization is experiencing a spike in the number of claim requests it gets. Since the servers are tuned to handle the current capacity (with a foreseen &#43;/- 5% elasticity) things start slowing down. Customers who are on the phone with the customer service reps start experiencing a longer wait time. Mobile phone based claim submission requests start timing out. Overall, customer satisfaction goes down and there is very little this organization can do about it because they cannot procure and deploy new services overnight and configure their client software to handle the spike. If they had access to cloud resources, they could certainly grow the number of servers temporarily into the cloud and turn them down later. However, in the absence of that there is not much this organization can do. This is exactly why a DRA like framework is needed in the enterprise. Imagine, if this organization could temporarily limit (or even turn off) its capacity to sell more policies and re-allocate those computing resources to the business function that it needs at the moment. The service allocation could look something like this:  This re-configuration could save the company thousands of unhappy customers and more importantly ensure that the business resources were utilized to the maximum when they were needed. This concept is not entirely new. There are similarities to Cory Isacson&amp;rsquo;s Software Pipelines and SOA: Releasing the Power of Multi-Core ProcessingSoftware Pipelines and SOA and cloud computing in general. Some advanced organization with very good engineering teams are able to achieve this scenario by maximizing technologies like Chef/Puppet in the cloud. However, it is not an easily accessible to the common enterprise. What if there was an application/services framework that facilitated this? I believe that a solution like this would truly align the business&amp;rsquo; needs with IT capabilities of the enterprise.
@@ -295,7 +295,7 @@ However, engineering managers have the opportunity to change this. Ask for more 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         graphs all around us
       </h3>
       <p class="summary-summary">Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like Neo4j.
@@ -328,7 +328,7 @@ Having attended a few hands-on training courses on Neo4j I can confidently say t
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Fixing Tmobile&#39;s activation form
       </h3>
       <p class="summary-summary">I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it has many advantages such as ringing many phone numbers. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can purchase an Obi for about $50 on Amazon. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, You need to first port your number to a wireless carrier and then to Google Voice. I chose to do this process by using TMobile. I ordered a Prepaid SIM card activtion kit from Amazon for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at http://prepaid-phones.t-mobile.com/prepaid-activate. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &amp;ldquo;hidden&amp;rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE)  Now hit the inspect element button to start looking at the form:  Hit Control &#43; F to bring up the search box in the form:  Now search for &amp;ldquo;autofill&amp;rdquo; you will something similar to the following:  Double click on the &amp;ldquo;autorefill&amp;rdquo; part of value=&amp;ldquo;autorefill&amp;rdquo; and change it to value=&amp;ldquo;autorefill1&amp;rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!
@@ -358,7 +358,7 @@ Having attended a few hands-on training courses on Neo4j I can confidently say t
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         HIMSS 2016
       </h3>
       <p class="summary-summary">I was at HIMSS with EPAM for the past few days. It’s been fun and exhausting at the same time. Here are some observations:
@@ -390,7 +390,7 @@ Exciting times in health technology!
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Impact of bad UX in the physical world
       </h3>
       <p class="summary-summary"> UX in Italy: 18 screens to buy a train ticket I was in Cinque Terre region in north eastern Italy for a week last month. It is a UNESCO Heritage Site and I definitely recommend it, especially if you like hiking.
@@ -441,7 +441,7 @@ Hopefully someone will do something about this sooner than later but if you are 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Managers should not be messengers
       </h3>
       <p class="summary-summary">This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. If you are an engineering manager and find yourself in this situation; change the company or change your company.
@@ -474,7 +474,7 @@ However, engineering managers have the opportunity to change this. Ask for more 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Brushing up on programming
       </h3>
       <p class="summary-summary">When was the last time you took a week to brush up on the most basic of algorithms and your understanding of data structures? As we get into the rhythm of using our most beloved frameworks, language features and libraries sometimes we do lose touch with the most basic building blocks of computer science. &amp;lsquo;So what?&amp;rsquo; You may ask. When you are designing and building software that will be used by tens of millions of people, it is important to understand the trade-offs. A more efficient algorithm can make the difference between a sub-second and 3 second response time on your mobile app or web site. Taking a few hours every quarter or six months to brush up on the most basic building blocks such as DFS, BFS, sorting and checksum algorithms, hash tables, binary trees and tries can help us look at day to day challenges under a new light and come up with alternative solutions. Can you fit 3 hours of brush-up time into your schedule next quarter?
@@ -504,7 +504,7 @@ However, engineering managers have the opportunity to change this. Ask for more 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Micro Services for engineering growth
       </h3>
       <p class="summary-summary"> Organizational impact of micro-service architecture Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like Martin Fowler have pointed out , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.
@@ -530,7 +530,7 @@ I would even argue that if you cannot afford to dedicate the time/engineering ma
   </div><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Dynamic resource allocation in your data center
       </h3>
       <p class="summary-summary">By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case. The situation in most enterprise systems however, is not that great. It is not rare for me to run into a horizontally scaled solution that is not efficiently utilizing the computing resources. Take the following example; a software solution that serves an end to end business process is created as a single service. When the volume increases on the client, the service is scaled by creating an exact replica and using a load balancer to reduce the load. To elaborate on the issue at hand, I will use a hypothetical car insurance company. As you may already know, there are some basic concepts in car insurance business such as finding a quote that fits your needs, comparing them with competitors, signing up for a policy and finally paying for it. If everything goes well and you don&amp;rsquo;t get into an accident, your interaction with the insurance company may just end there. Their &amp;ldquo;service&amp;rdquo; oriented software may be running on a server that looks like the following:  When this company starts becoming successful and gets permanent growth, the current computing capacity may no longer serve its needs. What I mean by permanent growth is a net gain on the number of users. Say, from X to 2X. This growth is a pretty happy and desirable scenario which can be the result of geographic expansion, an acquisition or a marketing campaign. Any sane architect would just double the capacity, distribute the traffic with a load balancer go on with life. The server stacks may look something like this after the capacity upgrade:  While this is going on, an X-Ray of the business processes may show us some service resource usage distribution that looks like this.  Now lets think about a slightly more interesting scenario. Hurricane Sandy happens. A lot of cars are damaged and as a result the organization is experiencing a spike in the number of claim requests it gets. Since the servers are tuned to handle the current capacity (with a foreseen &#43;/- 5% elasticity) things start slowing down. Customers who are on the phone with the customer service reps start experiencing a longer wait time. Mobile phone based claim submission requests start timing out. Overall, customer satisfaction goes down and there is very little this organization can do about it because they cannot procure and deploy new services overnight and configure their client software to handle the spike. If they had access to cloud resources, they could certainly grow the number of servers temporarily into the cloud and turn them down later. However, in the absence of that there is not much this organization can do. This is exactly why a DRA like framework is needed in the enterprise. Imagine, if this organization could temporarily limit (or even turn off) its capacity to sell more policies and re-allocate those computing resources to the business function that it needs at the moment. The service allocation could look something like this:  This re-configuration could save the company thousands of unhappy customers and more importantly ensure that the business resources were utilized to the maximum when they were needed. This concept is not entirely new. There are similarities to Cory Isacson&amp;rsquo;s Software Pipelines and SOA: Releasing the Power of Multi-Core ProcessingSoftware Pipelines and SOA and cloud computing in general. Some advanced organization with very good engineering teams are able to achieve this scenario by maximizing technologies like Chef/Puppet in the cloud. However, it is not an easily accessible to the common enterprise. What if there was an application/services framework that facilitated this? I believe that a solution like this would truly align the business&amp;rsquo; needs with IT capabilities of the enterprise.
@@ -560,7 +560,7 @@ I would even argue that if you cannot afford to dedicate the time/engineering ma
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Impact of bad UX in the physical world
       </h3>
       <p class="summary-summary"> UX in Italy: 18 screens to buy a train ticket I was in Cinque Terre region in north eastern Italy for a week last month. It is a UNESCO Heritage Site and I definitely recommend it, especially if you like hiking.
@@ -611,7 +611,7 @@ Hopefully someone will do something about this sooner than later but if you are 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Fixing Tmobile&#39;s activation form
       </h3>
       <p class="summary-summary">I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it has many advantages such as ringing many phone numbers. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can purchase an Obi for about $50 on Amazon. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, You need to first port your number to a wireless carrier and then to Google Voice. I chose to do this process by using TMobile. I ordered a Prepaid SIM card activtion kit from Amazon for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at http://prepaid-phones.t-mobile.com/prepaid-activate. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &amp;ldquo;hidden&amp;rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE)  Now hit the inspect element button to start looking at the form:  Hit Control &#43; F to bring up the search box in the form:  Now search for &amp;ldquo;autofill&amp;rdquo; you will something similar to the following:  Double click on the &amp;ldquo;autorefill&amp;rdquo; part of value=&amp;ldquo;autorefill&amp;rdquo; and change it to value=&amp;ldquo;autorefill1&amp;rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!
@@ -641,7 +641,7 @@ Hopefully someone will do something about this sooner than later but if you are 
                                         <div class="columns"><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Conversational UIs are coming
       </h3>
       <p class="summary-summary">Conversational style UIs are gaining more popularity. In an era where people are living and breathing text messages and have an attention span for only nuggets of information, I foresee these conversational apps to become the norm.
@@ -658,7 +658,7 @@ http://qz.com/613700/its-here-quartzs-first-news-app-for-iphone/
   </div><div class="column is-12">
     <div class="box">
 
-      <h3 class="title is-12 summary-title">
+      <h3 class="title is-5 summary-title">
         Impact of bad UX in the physical world
       </h3>
       <p class="summary-summary"> UX in Italy: 18 screens to buy a train ticket I was in Cinque Terre region in north eastern Italy for a week last month. It is a UNESCO Heritage Site and I definitely recommend it, especially if you like hiking.
