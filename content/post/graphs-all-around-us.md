@@ -3,7 +3,7 @@ date = "2016-01-12"
 showcomments = true
 title = "graphs all around us"
 description = "When you look for them"
-
+tags = ["graph", "data"]
 +++
 
 Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like [Neo4j](http://www.neo4j.com).

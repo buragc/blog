@@ -6,14 +6,28 @@ draft = false
 showpagemeta = false
 hidelatestposts = true
 
-date = "2017-07-01T22:30:45-05:00"
+date = "2019-09-20T22:30:45-05:00"
 +++
 
-# Abaka (July 2017 - Present)
+# LinkedIn (June 2019 - Present)
+I am currently working at LinkedIn as an engineering manager focusing on advertiser systems and experience.
 
-I co-founded [Abaka.io](www.abaka.io) to create a better patient experience and help address some of the problems we all face as patients in the healthcare ecosystem. 
+--
 
-At Abaka, I wear multiple hats ranging from engineering to marketing. In the current stage most of my time is spent on engineering our platform.
+# Instagram (July 2018 - June 2019)
+I worked as an Engineering Manager at Instagram, primarily working with data engineers and data systems. My focus areas included mobile application (iOS / Android) performance & reliability and server side efficiency. 
+
+--
+
+# Abaka (July 2017 - July 2018)
+
+I co-founded [Abaka.io](www.abaka.io) to create a better patient experience and help address some of the problems we all face as patients in the healthcare ecosystem. At Abaka, I engineerined the entire technology stack of Abaka including:
+
+* Google Cloud Infrastructure
+* EMR integrations
+* ML Models - using logistic regression and decision trees
+* Provider web applications using NodeJS, TypeScript and React
+* Patient mobile applications (iOS and Android) using ReactNative
 
 --
 

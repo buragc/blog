@@ -3,6 +3,7 @@ title = "Micro Services for engineering growth"
 description = "A positive side effect of working with micro-services"
 showcomments = true
 date="2017-06-15"
+tags = ["engineering", "services"]
 +++
 
 # Organizational impact of micro-service architecture

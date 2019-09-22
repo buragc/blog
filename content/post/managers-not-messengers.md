@@ -3,7 +3,7 @@ title = "Managers should not be messengers"
 description = "How to empower your managers"
 showcomments = true
 date = "2016-06-01"
-
+tags = ["engineering" ,"management"]
 +++
 
 This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. 

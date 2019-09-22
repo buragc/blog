@@ -3,7 +3,7 @@ title = "Brushing up on programming"
 description = "Back to basics for managers"
 showcomments = true
 date = "2016-05-03"
-
+tags = ["programming"]
 +++
 
 When was the last time you took a week to brush up on the most basic of algorithms and your understanding of data structures? As we get into the rhythm of using our most beloved frameworks, language features and libraries sometimes we do lose touch with the most basic building blocks of computer science. 

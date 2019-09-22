@@ -1,264 +1,501 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Burag Cetinkaya">
-		<meta name="description" content="Engineering Management | Software | Entrepreneurship">
-		<meta name="generator" content="Hugo 0.24.1" />
-		<title>Architecture of Stackoverflow &middot; Burag Cetinkaya</title>
-		<link rel="shortcut icon" href="https://www.burag.com/images/favicon.ico">
-		<link rel="stylesheet" href="https://www.burag.com/css/style.css">
-		<link rel="stylesheet" href="https://www.burag.com/css/highlight.css">
-		
-
-		
-		<link rel="stylesheet" href="https://www.burag.com/css/monosocialiconsfont.css">
-		
-
-		
-
-		<meta property="og:title" content="Architecture of Stackoverflow" />
-<meta property="og:description" content="Why tech stack is less important than architecture" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.burag.com/post/stackflow-architecture/" />
-
-
-
-<meta property="article:published_time" content="2014-01-14T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-01-14T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-	    
-	    
-<meta itemprop="name" content="Architecture of Stackoverflow">
-<meta itemprop="description" content="Why tech stack is less important than architecture">
-
-
-<meta itemprop="dateModified" content="2014-01-14T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="294">
-
-
-
-<meta itemprop="keywords" content="" />
-
-	    
-
-  <meta name="twitter:card" content="summary"/>
-
-
-
-<meta name="twitter:text:title" content="Architecture of Stackoverflow"/>
-<meta name="twitter:title" content="Architecture of Stackoverflow"/>
-<meta name="twitter:description" content="Why tech stack is less important than architecture"/>
-<meta name="twitter:site" content="@https://www.twitter.com/buragc"/>
-
-	</head>
-
-    <body>
-       <nav class="main-nav">
-	
-	
-		<a href='https://www.burag.com/'> <span class="arrow">←</span>home</a>
-	
-
-	
-		<a href='https://www.burag.com/post'>posts</a>
-	
-	
-		<a href='https://www.burag.com/work'>work</a>
-	
-	
-		<a href='https://www.burag.com/projects'>projects</a>
-	
-
-	
-</nav>
-
-        <section id="wrapper">
-            <article class="post">
-                <header>
-                    <h1>Architecture of Stackoverflow</h1>
-                    <h2 class="headline">
-                    January 14, 2014 
-                    <br>
-                    
-                    </h2>
-                </header>
-                <section id="post-body">
-                    <p><a href="http://www.dev-metal.com/architecture-stackoverflow/" title="The Architecture of StackOverflow">The Architecture of StackOverflow</a> A couple of months ago, I read a comment on <a href="http://news.ycombinator.com">Hacker News</a> about how .NET is a poor technology choice for startups for performance reasons. I disagree wholeheartedly. Not because .NET is always the best choice, but because characterizing a platform/language as a poor choice for performance without the context is non-sensical. Today, for most web based applications, performance ranks lower compared to licensing cost, talent pool, existing frameworks, etc. Bad design, cookie-cutter approach and a lack of proper architecture are more likely candidates for performance issues rather than the underlying technology. Here is a case to demonstrate it. StackOverflow is serving about 500M page views a month and they are able to do that on a grand total of dozen servers. They also happen to use .NET for all of this. How is this possible having made a &ldquo;poor decision&rdquo; by going with .NET? <a href="http://www.dev-metal.com/architecture-stackoverflow/">This video</a> explains how StackOverflow was able to use .NET to create a high-performing web app. Clearly the development team members at StackOverflow think about their design/architecture quite a bit and do not follow &ldquo;out of the box&rdquo; patterns. Sometimes, they even use anti-patterns. But, they do all of this consciously with specific design goals in mind. They ended up writing some libraries that were a better fit for their uses rather than the mainstream ones. They even open sourced most of these libraries and shared it on GitHub. Just like the saying goes; &ldquo;It&rsquo;s the poor craftsman who blames his tools&rdquo;. Any technology, when used properly can perform well. It&rsquo;s the architect&rsquo;s job to pick and apply it the right way. Next time you hear a developer/architect blame the technology for poor results, you should ask: &ldquo;What have you tried to address the issue?&rdquo;</p>
-
-                </section>
-            </article>            
-
-            
-            <footer id="post-meta" class="clearfix !noborder">
-                <a href="https://twitter.com/buragc">
-                        <img class="avatar" src="https://www.burag.com/images/headshot.jpg">
-                        <div>
-                            <span class="dark">Burag Cetinkaya</span>
-                            <span>I am the co-founder and VP of Engineering of Abaka.io. I love building products with great teams.</span>
-                        </div>
-                    </a>
-                
-                    <section id="sharing">
-                        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.burag.com%2fpost%2fstackflow-architecture%2f - Architecture%20of%20Stackoverflow by @buragc"><span class="icon-twitter"> Tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-                    </section>                
-            </footer>
-                                    
-                <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'solutionsthinking';
-    var disqus_identifier = 'https:\/\/www.burag.com\/post\/stackflow-architecture\/';
-    var disqus_title = 'Architecture of Stackoverflow';
-    var disqus_url = 'https:\/\/www.burag.com\/post\/stackflow-architecture\/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            
-            
-                <ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge"><title>Personal website and blog</title>
     
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.f4d8930701ac14f288dcb4efc7475f6ccd49ced8b270c4a433d0cd58b6eb8a93.css" integrity="sha256-9NiTBwGsFPKI3LTvx0dfbM1JztiycMSkM9DNWLbripM=">
+<link rel="stylesheet" type="text/css" href="/css/monokai-sublime.9.15.8.min.min.3a5d282f03108101d715e80fd4c07b55502ec4673fc063f2b6e415d4def5b354.css" integrity="sha256-Ol0oLwMQgQHXFegP1MB7VVAuxGc/wGPytuQV1N71s1Q=">
+<link rel="stylesheet" type="text/css" href="/css/icons.min.56faae60f16170cbfab5c036036aafb37d367aa4d4f4483b335bd98b891fa00b.css" integrity="sha256-VvquYPFhcMv6tcA2A2qvs302eqTU9Eg7M1vZi4kfoAs=">
+<link rel="stylesheet" type="text/css" href="/css/mycss.min.a48e49865b775003cbca07751a1a56a863c79bfddbe6eb80ad52f4e548507de9.css" integrity="sha256-pI5Jhlt3UAPLygd1GhpWqGPHm/3b5uuArVL05UhQfek=">
+
+  </head>
+  <body>
     
+    <div id="preloader">
+      <div id="status"></div>
+    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+
+      
+      
+      
+      <a class="navbar-item">
+        <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+        <div class="navbar-item left-menu-icon-wrapper">Tags</div>
+      </a>
+
+      <div class="navbar-item is-expanded"></div>
+      <a class="navbar-item is-hidden-desktop">  
+        <div data-target="navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">Menu</div>
+        <div data-target="navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+    </div>
+
+    
+
+    <div id="navbar-menu" class="navbar-menu is-static">
+      
+      <div class="navbar-end">
+        <a href="/about" class="navbar-item is-secondary">
+          About Me
+        </a><a href="https://burag.com/post/" class="navbar-item is-secondary">Posts</a></div>
+    </div>
+
+
+
+
+  </div>
+</nav><nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+      <div class="navbar-brand">
+  
         
-        <li>
-            <a href="https://www.burag.com/work/">work<aside class="dates">Jul 1</aside></a>
-        </li>
         
-   
-    
         
-        <li>
-            <a href="https://www.burag.com/post/micro-services-engineering-growth/">Micro Services for engineering growth<aside class="dates">Jun 15</aside></a>
-        </li>
+        <a class="navbar-item">
+          <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+          <div class="navbar-item left-menu-icon-wrapper">Tags</div>
+        </a>
+  
+        <div class="navbar-item is-expanded"></div>
+        <a class="navbar-item is-hidden-desktop">  
+          <div data-target="cloned-navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">Menu</div>
+          <div data-target="cloned-navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+  
+      
+  
+      <div id="cloned-navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-end">
+          <a href="/about" class="navbar-item is-secondary">
+            About Me
+          </a><a href="https://burag.com/post/" class="navbar-item is-secondary">Posts</a></div>
+      </div>
+  
+  
+  
+  
+    </div>
+  </nav>
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title is-2 section-title">Architecture of Stackoverflow</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
         
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/conversational-uis-are-coming/">Conversational UIs are coming<aside class="dates">Dec 22</aside></a>
-        </li>
-        
-   
-    
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/bad-ux-at-ticket-kiosks-in-italy/">Impact of bad UX in the physical world<aside class="dates">Oct 12</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/social-media-and-military-coup/">Social Media during a military coup<aside class="dates">Jul 15</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/managers-not-messengers/">Managers should not be messengers<aside class="dates">Jun 1</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/brushing-up-on-programming/">Brushing up on programming<aside class="dates">May 3</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/onwards-upwards/">Onwards and Upwards<aside class="dates">Apr 1</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://www.burag.com/post/himss-2016/">HIMSS 2016<aside class="dates">Mar 3</aside></a>
-        </li>
-        
-   
-</ul>
-            
-            
-<footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="mailto:burag@burag.com">
-        roundedemail
-    </a>
-    
-    <a class="symbol" href="https://www.github.com/buragc">
-        roundedgithub
-    </a>
-    
-    <a class="symbol" href="https://www.linkedin.com/in/buragc">
-        roundedlinkedin
-    </a>
-    
-    <a class="symbol" href="https://www.twitter.com/buragc">
-        roundedtwitterbird
-    </a>
-    
-
-
-</div>
-
-    
-    <p class="small">
-    
-        Copyright 2017 Burag Cetinkaya
-    
-    </p>
-</footer>
+        <section class="section content has-text-justified">
+          <p><a href="http://www.dev-metal.com/architecture-stackoverflow/" title="The Architecture of StackOverflow" target="_blank">The Architecture of StackOverflow</a> A couple of months ago, I read a comment on <a href="http://news.ycombinator.com" target="_blank">Hacker News</a> about how .NET is a poor technology choice for startups for performance reasons. I disagree wholeheartedly. Not because .NET is always the best choice, but because characterizing a platform/language as a poor choice for performance without the context is non-sensical. Today, for most web based applications, performance ranks lower compared to licensing cost, talent pool, existing frameworks, etc. Bad design, cookie-cutter approach and a lack of proper architecture are more likely candidates for performance issues rather than the underlying technology. Here is a case to demonstrate it. StackOverflow is serving about 500M page views a month and they are able to do that on a grand total of dozen servers. They also happen to use .NET for all of this. How is this possible having made a &ldquo;poor decision&rdquo; by going with .NET? <a href="http://www.dev-metal.com/architecture-stackoverflow/" target="_blank">This video</a> explains how StackOverflow was able to use .NET to create a high-performing web app. Clearly the development team members at StackOverflow think about their design/architecture quite a bit and do not follow &ldquo;out of the box&rdquo; patterns. Sometimes, they even use anti-patterns. But, they do all of this consciously with specific design goals in mind. They ended up writing some libraries that were a better fit for their uses rather than the mainstream ones. They even open sourced most of these libraries and shared it on GitHub. Just like the saying goes; &ldquo;It&rsquo;s the poor craftsman who blames his tools&rdquo;. Any technology, when used properly can perform well. It&rsquo;s the architect&rsquo;s job to pick and apply it the right way. Next time you hear a developer/architect blame the technology for poor results, you should ask: &ldquo;What have you tried to address the issue?&rdquo;</p>
 
         </section>
+      </div>
+    </div>
+  </div>  
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+        Last modified:14 January 2014</div>
+    </div>
+  </div></section><footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <img src="/footer.svg" alt="">
+        
+      </div>
+      
+    <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Website</h3>
+          </div>
+          <ul class="link-list">
+            <li>
+                <a href="/about">
+                  <span class="icon"><i class="fa fa-cube"></i></span>
+                  About Me
+                </a>
+              </li>
+            <li>
+              <a href="/post">
+                <span class="icon"><i class="fa fa-tag"></i></span> 
+                Posts
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Contacts</h3>
+          </div>
+          <ul class="link-list">
+            <li>
+              <a href="https://www.linkedin.com/in/buragc/" target="_blank">
+                <span class="icon"><i class="fa fa-linkedin"></i></span>
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="mailto:burag@burag.com" target="_blank">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                burag@burag.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://www.burag.com/js/main.js"></script>
-<script src="https://www.burag.com/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Copyright</h3>
+          </div>
+          <ul class="link-list">
+            <li>
+              <a>
+                <span class="icon"><i class="fa fa-copyright"></i></span>
+                Burag Cetinkaya  - 2019
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+    <div id="backtotop"><a href="#"></a></div><div class="sidebar">
+  <div class="sidebar-header"><img src="/sidebar.svg" alt="">
+    
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      <li class="no-children">
+          <a href="/tags">
+            <div class="columns">
+              <table width="100%">  
+                <tr>
+                  <td class="">
+                    <span class="icon"><i class="fa fa-cubes"></i></span>All Tags
+                  </td>
+                  <td class="has-text-right" >
+                      
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+      <li class="no-children">
+          <a href="/tags/engineering">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>engineering</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/services">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>services</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/ux">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ux</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/conversational-ui">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>conversational ui</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/data">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>data</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/enterprise">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>enterprise</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/graph">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>graph</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/hack">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>hack</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/healthcare">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>healthcare</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/italy">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>italy</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/management">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>management</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/programming">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/ticket">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ticket</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/tmobile">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>tmobile</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li></ul>
+  </div>
+</div>
 
 
-
-
-
-    </body>
+<script src="/js/jquery-2.2.4.js"></script>
+<script src="/js/feather.4.22.0.js"></script>
+<script src="/js/modernizr-2.8.3.js"></script>
+<script src="/js/fresh_new.js"></script>
+<script src="/js/highlight.9.15.8.pack.js"></script>
+<script src="/js/highlightjs-line-numbers.2.7.0.min.js"></script><script>hljs.initHighlightingOnLoad();</script>
+<script>hljs.initLineNumbersOnLoad();</script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('.codeinline').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+</script></body>
 </html>

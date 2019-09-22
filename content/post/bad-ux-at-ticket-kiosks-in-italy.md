@@ -3,7 +3,7 @@ description = "18 screens to your tickets"
 showcomments = true
 date = "2016-10-12"
 title = "Impact of bad UX in the physical world"
-
+tags = ["ux", "italy", "ticket"]
 +++
 
 ### UX in Italy: 18 screens to buy a train ticket

@@ -3,7 +3,7 @@ showcomments = true
 date = "2016-03-03"
 title = "HIMSS 2016"
 description = "Future of Healthcare"
-
+tags = ["healthcare"]
 +++
 
 I was at HIMSS with EPAM for the past few days. It’s been fun and exhausting at the same time. Here are some observations:
