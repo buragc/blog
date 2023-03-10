@@ -9,9 +9,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.f4d8930701ac14f288dcb4efc7475f6ccd49ced8b270c4a433d0cd58b6eb8a93.css" integrity="sha256-9NiTBwGsFPKI3LTvx0dfbM1JztiycMSkM9DNWLbripM=">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.4975262a15762ea55e3210252d0702fdee7ac331442afdb5445140abbf634845.css" integrity="sha256-SXUmKhV2LqVeMhAlLQcC/e56wzFEKv21RFFAq79jSEU=">
 <link rel="stylesheet" type="text/css" href="/css/monokai-sublime.9.15.8.min.min.3a5d282f03108101d715e80fd4c07b55502ec4673fc063f2b6e415d4def5b354.css" integrity="sha256-Ol0oLwMQgQHXFegP1MB7VVAuxGc/wGPytuQV1N71s1Q=">
-<link rel="stylesheet" type="text/css" href="/css/icons.min.56faae60f16170cbfab5c036036aafb37d367aa4d4f4483b335bd98b891fa00b.css" integrity="sha256-VvquYPFhcMv6tcA2A2qvs302eqTU9Eg7M1vZi4kfoAs=">
+<link rel="stylesheet" type="text/css" href="/css/icons.min.6dc06ab2f3698408961127b959a0f87ba0426dfa1df4cb25a55fa434db7222c5.css" integrity="sha256-bcBqsvNphAiWESe5WaD4e6BCbfod9MslpV&#43;kNNtyIsU=">
 <link rel="stylesheet" type="text/css" href="/css/mycss.min.a48e49865b775003cbca07751a1a56a863c79bfddbe6eb80ad52f4e548507de9.css" integrity="sha256-pI5Jhlt3UAPLygd1GhpWqGPHm/3b5uuArVL05UhQfek=">
 
   </head>
@@ -125,7 +125,7 @@
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          <p>I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it <a href="http://www.google.com/googlevoice/about.html" target="_blank">has many advantages such as ringing many phone numbers</a>. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can <a href="http://www.amazon.com/gp/product/B00BUV7C9A/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00BUV7C9A&amp;linkCode=as2&amp;tag=books0984-20" target="_blank">purchase an Obi for about $50 on Amazon</a>. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, <a href="http://productforums.google.com/forum/#!msg/voice/sIk31W88SHA/A17A3KtsfIoJ" target="_blank">You need to first port your number to a wireless carrier</a> and then to Google Voice. I chose to do this process by using TMobile. I ordered a <a href="http://www.amazon.com/T-Mobile-Tmobile-Mobile-Prepaid-Activation/dp/B003X7RY06/ref=pd_cp_cps_0" target="_blank">Prepaid SIM card activtion kit from Amazon</a> for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at <a href="http://prepaid-phones.t-mobile.com/prepaid-activate" target="_blank">http://prepaid-phones.t-mobile.com/prepaid-activate</a>. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &ldquo;hidden&rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE) <a href="http://buragc.files.wordpress.com/2013/10/capture2.png" target="_blank"><img src="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487" alt="Image" /></a> Now hit the inspect element button to start looking at the form: <a href="http://buragc.files.wordpress.com/2013/10/inspectelement.png" target="_blank"><img src="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487" alt="Image" /></a> Hit Control + F to bring up the search box in the form: <a href="http://buragc.files.wordpress.com/2013/10/find.png" target="_blank"><img src="http://buragc.files.wordpress.com/2013/10/find.png?w=400" alt="Image" /></a> Now search for &ldquo;autofill&rdquo; you will something similar to the following: <a href="http://buragc.files.wordpress.com/2013/10/inputhidden.png" target="_blank"><img src="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487" alt="Image" /></a> Double click on the &ldquo;autorefill&rdquo; part of value=&ldquo;autorefill&rdquo; and change it to value=&ldquo;autorefill1&rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!</p>
+          <p>I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it <a href="http://www.google.com/googlevoice/about.html">has many advantages such as ringing many phone numbers</a>. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can <a href="http://www.amazon.com/gp/product/B00BUV7C9A/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00BUV7C9A&amp;linkCode=as2&amp;tag=books0984-20">purchase an Obi for about $50 on Amazon</a>. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, <a href="http://productforums.google.com/forum/#!msg/voice/sIk31W88SHA/A17A3KtsfIoJ">You need to first port your number to a wireless carrier</a> and then to Google Voice. I chose to do this process by using TMobile. I ordered a <a href="http://www.amazon.com/T-Mobile-Tmobile-Mobile-Prepaid-Activation/dp/B003X7RY06/ref=pd_cp_cps_0">Prepaid SIM card activtion kit from Amazon</a> for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at <a href="http://prepaid-phones.t-mobile.com/prepaid-activate">http://prepaid-phones.t-mobile.com/prepaid-activate</a>. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &ldquo;hidden&rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE) <a href="http://buragc.files.wordpress.com/2013/10/capture2.png"><img src="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487" alt="Image"></a> Now hit the inspect element button to start looking at the form: <a href="http://buragc.files.wordpress.com/2013/10/inspectelement.png"><img src="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487" alt="Image"></a> Hit Control + F to bring up the search box in the form: <a href="http://buragc.files.wordpress.com/2013/10/find.png"><img src="http://buragc.files.wordpress.com/2013/10/find.png?w=400" alt="Image"></a> Now search for &ldquo;autofill&rdquo; you will something similar to the following: <a href="http://buragc.files.wordpress.com/2013/10/inputhidden.png"><img src="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487" alt="Image"></a> Double click on the &ldquo;autorefill&rdquo; part of value=&ldquo;autorefill&rdquo; and change it to value=&ldquo;autorefill1&rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!</p>
 
         </section>
       </div>
@@ -240,6 +240,24 @@
                     <td class=""><span class="icon"><i class="fa fa-cube"></i></span>engineering</td>
                     <td class="has-text-right" >
                         <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/programming">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
                       
                     </td>
                     
@@ -430,12 +448,12 @@
           </a>
       </li>
       <li class="no-children">
-          <a href="/tags/programming">
+          <a href="/tags/swift">
             <div class="columns">
               
               <table width="100%">  
                   <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>swift</td>
                     <td class="has-text-right" >
                         <div class="tag-number">1</div>
                       

@@ -9,9 +9,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.f4d8930701ac14f288dcb4efc7475f6ccd49ced8b270c4a433d0cd58b6eb8a93.css" integrity="sha256-9NiTBwGsFPKI3LTvx0dfbM1JztiycMSkM9DNWLbripM=">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.4975262a15762ea55e3210252d0702fdee7ac331442afdb5445140abbf634845.css" integrity="sha256-SXUmKhV2LqVeMhAlLQcC/e56wzFEKv21RFFAq79jSEU=">
 <link rel="stylesheet" type="text/css" href="/css/monokai-sublime.9.15.8.min.min.3a5d282f03108101d715e80fd4c07b55502ec4673fc063f2b6e415d4def5b354.css" integrity="sha256-Ol0oLwMQgQHXFegP1MB7VVAuxGc/wGPytuQV1N71s1Q=">
-<link rel="stylesheet" type="text/css" href="/css/icons.min.56faae60f16170cbfab5c036036aafb37d367aa4d4f4483b335bd98b891fa00b.css" integrity="sha256-VvquYPFhcMv6tcA2A2qvs302eqTU9Eg7M1vZi4kfoAs=">
+<link rel="stylesheet" type="text/css" href="/css/icons.min.6dc06ab2f3698408961127b959a0f87ba0426dfa1df4cb25a55fa434db7222c5.css" integrity="sha256-bcBqsvNphAiWESe5WaD4e6BCbfod9MslpV&#43;kNNtyIsU=">
 <link rel="stylesheet" type="text/css" href="/css/mycss.min.a48e49865b775003cbca07751a1a56a863c79bfddbe6eb80ad52f4e548507de9.css" integrity="sha256-pI5Jhlt3UAPLygd1GhpWqGPHm/3b5uuArVL05UhQfek=">
 
   </head>
@@ -125,44 +125,24 @@
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          
-
-<h1 id="organizational-impact-of-micro-service-architecture">Organizational impact of micro-service architecture</h1>
-
-<p>Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like <a href="https://martinfowler.com/bliki/MicroservicePrerequisites.html" target="_blank">Martin Fowler have pointed out</a> , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.</p>
-
-<p>Since the technical comparison of monoliths and micro services has been done several times (<a href="https://medium.freecodecamp.org/rest-in-peace-to-microservices-or-not-6d097b6c8279" target="_blank">here</a> and  <a href="https://stackoverflow.com/questions/33041733/microservices-vs-monolithic-architecture" target="_blank">here</a>) I will not go into whether or not you should pick a micro services architecture. Instead, I want to focus on what happens to your engineering team communication, responsibilities and overall impact on your engineering organization if you were to pick a micro-services architecture.</p>
-
+          <h1 id="organizational-impact-of-micro-service-architecture">Organizational impact of micro-service architecture</h1>
+<p>Using micro-services in your engineering organization is where the hype has been at for the past few years. As others like <a href="https://martinfowler.com/bliki/MicroservicePrerequisites.html">Martin Fowler have pointed out</a> , building a micro-services architecture based on the hype is probably a bad idea as a true micro-services architecture comes with a whole set of new challenges that probably is not worth it for a good chunk of use cases.</p>
+<p>Since the technical comparison of monoliths and micro services has been done several times (<a href="https://medium.freecodecamp.org/rest-in-peace-to-microservices-or-not-6d097b6c8279">here</a> and  <a href="https://stackoverflow.com/questions/33041733/microservices-vs-monolithic-architecture">here</a>) I will not go into whether or not you should pick a micro services architecture. Instead, I want to focus on what happens to your engineering team communication, responsibilities and overall impact on your engineering organization if you were to pick a micro-services architecture.</p>
 <h2 id="team-driven-vs-standardized-architecture">Team driven vs. standardized architecture</h2>
-
 <p>One of the big decisions an engineering organization makes as they go micro services route is to decide whether or not all micro-services will look the same or if teams will be given the freedom to use the tools, languages and architecture that makes sense for them.</p>
-
 <p>I am all for experimenting and picking a good fit for team and the engineering organization based on the makeup of the engineering team. As such, I have preferred giving teams the freedom to choose their own implementation strategy as long as the overall ecosystem adhered to a few key rules that impacted ease of communication between services, log collection/analysis and monitoring.</p>
-
 <h2 id="decentralized-decisioning">Decentralized decisioning</h2>
-
 <p>By giving teams the ability to pick and choose what they think is best for their use case, engineering organizations essentially start pushing technical decisioning from a centralized model to a more distributed one where decisions are made at the edges.</p>
-
 <p>The first thing that this does is to spark more architectural discussions, debates and designs within your team. This creates an opportunity (and a good challenge) for engineers to start communicating their ideas to other engineers more effectively and helps them develop their verbal and written communication skils.</p>
-
 <h2 id="making-experience-years-count">Making experience years count</h2>
-
 <p>If you end up with teams that are autonomous in their design and architecture decisions your engineers will probably end up making some unproven assumptions but as long as these are incremental, small micro-services that are released to production in a controlled way as part of A/B tests, your engineers will quickly start getting feedback in the form of hard-data points about their assumptions, architectural decisions and implementation choices.</p>
-
 <p>Compared to a monolithic architecture where junior engineers are expected to incrementally introduce new functionality by replicating existing behaviors, micro-services give them the ability to quickly learn based on real-world feedback.</p>
-
 <p>As a result, the experience your engineers start gaining actually will mean something because they are constantly learning new things and forming their views on good engineering based on real world evidence rather than executing a cookie cutter approach over and over for years.</p>
-
-<p><img src="http://memeguy.com/photos/images/applying-to-entry-level-jobs-that-require-years-experience-62749.jpg" alt="Experience" title="Experience" /></p>
-
-<h2 id="it-s-not-all-rainbows-and-unicorns">It&rsquo;s not all rainbows and unicorns</h2>
-
+<p><img src="http://memeguy.com/photos/images/applying-to-entry-level-jobs-that-require-years-experience-62749.jpg" alt="Experience" title="Experience"></p>
+<h2 id="its-not-all-rainbows-and-unicorns">It&rsquo;s not all rainbows and unicorns</h2>
 <p>All this sounds great and at this point you may be wondering why would any organization not choose to go with micro-services if it has all these positive impacts on engineers.</p>
-
 <p>The answer is in the numbers; as your organization scales the number of services from a handful to a few dozen, discovery, documentation, deprecation, tracing and overall coordination among teams require the creation of a well oiled machine.</p>
-
 <p>Setting up the necessary systems, processes and encouraging the desired positive team behavior is no small feat. As such, a concious effort needs to be made to understand the needs of teams, find solutions that work internally and then learn from these experiments to improve.</p>
-
 <p>I would even argue that <strong>if you cannot afford to dedicate the time/engineering management capacity to restructure your organization, create efficient communication paths and introduce systematic improvements you probably should not roll out a micro-services architecture</strong>. Simply because, if not tended to, it would be dice roll to expect to reap the benefits I highlighted above.</p>
 
         </section>
@@ -278,6 +258,24 @@
                     <td class=""><span class="icon"><i class="fa fa-cube"></i></span>engineering</td>
                     <td class="has-text-right" >
                         <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/programming">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
                       
                     </td>
                     
@@ -468,12 +466,12 @@
           </a>
       </li>
       <li class="no-children">
-          <a href="/tags/programming">
+          <a href="/tags/swift">
             <div class="columns">
               
               <table width="100%">  
                   <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>swift</td>
                     <td class="has-text-right" >
                         <div class="tag-number">1</div>
                       

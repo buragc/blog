@@ -120,70 +120,19 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title is-2 section-title">work</h1>
+        <h1 class="title is-2 section-title">Learning SwiftUI and making a game</h1>
         <h5 class="subtitle is-5 is-muted"></h5>
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          <h1 id="linkedin-june-2019---present">LinkedIn (June 2019 - Present)</h1>
-<p>I am currently working at LinkedIn as an engineering manager focusing on advertiser systems and experience.</p>
-<p>&ndash;</p>
-<h1 id="instagram-july-2018---june-2019">Instagram (July 2018 - June 2019)</h1>
-<p>I worked as an Engineering Manager at Instagram, primarily working with data engineers and data systems. My focus areas included mobile application (iOS / Android) performance &amp; reliability and server side efficiency.</p>
-<p>&ndash;</p>
-<h1 id="abaka-july-2017---july-2018">Abaka (July 2017 - July 2018)</h1>
-<p>I co-founded <a href="www.abaka.io">Abaka.io</a> to create a better patient experience and help address some of the problems we all face as patients in the healthcare ecosystem. At Abaka, I engineerined the entire technology stack of Abaka including:</p>
-<ul>
-<li>Google Cloud Infrastructure</li>
-<li>EMR integrations</li>
-<li>ML Models - using logistic regression and decision trees</li>
-<li>Provider web applications using NodeJS, TypeScript and React</li>
-<li>Patient mobile applications (iOS and Android) using ReactNative</li>
-</ul>
-<p>&ndash;</p>
-<h1 id="meetup-april-2016---july-2017">Meetup (April 2016 - July 2017)</h1>
-<p>I worked at <a href="www.meetup.com">Meetup.com</a> as the Director of Core &amp; Data Engineering to make it easier for people to self-organize around their passions. My teams are responsible for running all back-end services, data pipelines and recommendations that power Meetup.</p>
-<p><strong>Some of my work includes:</strong></p>
-<ul>
-<li>Ensuring engineering organization alignment with product</li>
-<li>Hiring and growing engineering managers</li>
-<li>Overseeing data processing pipeline migration from on-premise to Google Cloud</li>
-<li>Helping Meetup replatform from a monolithic codebase to micro-services</li>
-<li>Leading the Core Platform team that serves all micro-service platform needs of the organization</li>
-<li>Developed a micro-service discovery platform to help engineering teams discover and utilize micro-services faster</li>
-<li>and I also loved hiring and building a team of top notch data, machine learning, platform and product engineers
-<table>
-<thead>
-<tr>
-<th><!-- raw HTML omitted --></th>
-</tr>
-</thead>
-</table>
-</li>
-</ul>
-<h1 id="curia-2014-2016">Curia (2014-2016)</h1>
-<p>Making the right connections with other professionals may literally change one&rsquo;s career. If you attend conferences, meetups or other networking events you may have noticed how hard it is to make meaningful connections in a short amount of time. <a href="http://www.getcuria.com">Curia</a> helps people discover the right professionals to connect with. After a beta period in NYC and SF, I joined Meetup in 2016 where I work with teams to improve the in-meetup experience using a similar approach.
-<!-- raw HTML omitted --></p>
-<p>&ndash;</p>
-<h1 id="epam-systems-2013-2016">EPAM Systems (2013-2016)</h1>
-<p>I worked as the Director of Technology Solutions at <a href="www.epam.com">EPAM Systems</a> (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM&rsquo;s clients to develop and introduce software solutions &amp; work with EPAM&rsquo;s UX and Dev teams teams to ensure successful design and delivery of software products.</p>
-<p>I focused on Big Data, APIs and mobile solutions to create state of the art engagement systems in healthcare and life sciences.</p>
-<p><strong>Some of my work at EPAM included:</strong></p>
-<ul>
-<li>Spearheaded the creation of EPAM&rsquo;s Healthcare Big Data Accelerator.</li>
-<li>Designed and managed the development of Mobile Health Plan Application accelerator for EPAM. Including all product management, technology strategy and development.</li>
-<li>Created the overall initial architecture of a genomics start-up that is changing the way personalized care is delivered around the world.
-<!-- raw HTML omitted --></li>
-</ul>
-<p>&ndash;</p>
-<h1 id="netsoft-usa-until-2012">Netsoft USA (until 2012)</h1>
-<p>I worked at Netsoft USA, a boutique product development company in NYC acquired by EPAM Systems in 2014, in various roles ranging from Developer to Principal Architect. During my time at Netsoft I;</p>
-<ul>
-<li>Developed clinical big-data strategy of a Fortune 500 healthcare organization.</li>
-<li>Architected and lead the development one of the first Accountable Care Organization SaaS product.</li>
-<li>Lead the development of a Personal Health Record platform that is later acquired by a large insurer.</li>
-<li>Created a programming framework that introduced concepts like Tasks, Futures, Parallel Programming</li>
-</ul>
+          <p>When Apple announced SwiftUI about 2 years ago, I was extremely excited. I had previously used Microsoft&rsquo;s WPF and Silverlight with their declarative layour markup language that resonates very well with the way I think about UIs. In the past few months, I finally had a few weekends that I could dedicate to learning SwiftUI at a high level with a simple project.</p>
+<p>As I was looking for a project to tinker with, I remembered a number&rsquo;s game I used to play in middle school when I was back in Istanbul. It is a very simple game where the user tries to reach a target number in the allotted time using a set of numbers and arithmetic. I have fond memories of playing this game, so I decided to re-create it using SwiftUI on iOS. I named it <a href="https://www.sumnum.app">SumNum</a>.</p>
+<p>Overall, I had a pleasant experience in using SwiftUI. There are still some rough edges around XCode support (even with LivePreview) such as cryptic compiler errors, random crashes and a pretty slow compilation result. However, even with these limitations it is still infinitely better than using Interface Builder. At this point I strongly believe that all Apple UI development will be moving to SwiftUI in the coming few years.</p>
+<p>I was able to implement an MVVM pattern with simple enough dependency injection and testing in next to no time. However, the Binding/State/EnvironmentObject/ObservedObject concepts are a bit more complicated than they need to be. If you do choose to go down that path, I strongly suggest watching the following <a href="https://developer.apple.com/videos/play/wwdc2020/10040/">Apple Developer Session Video on Data</a>.</p>
+<p>Animations were surprisingly easy to implement compared to other platforms I have seen. Especially the composability of each animation makes it very easy to re-use them within a given view. I used them for both the menus and gameplay with ease.</p>
+<p><a href="https://youtu.be/OvKWl93XQ5Q" title="SumNum Gameplay"><img src="http://img.youtube.com/vi/OvKWl93XQ5Q/0.jpg" alt="SumNum Gameplay"></a></p>
+<p>While I was working on the app, I wanted to add some complex animations that went way beyond animating simple shapes. In my search of a suitable animation I came across <a href="http://www.lottiefiles.com">Lottie Files</a> by AirBnB. It has many free/low-cost animations by hundreds of animators around the world. They even provide a web/Swift based player that makes it easy to incorporate into iOS apps. I strongly suggest using them.</p>
+<p>Overall creating the basic game engine &amp; the associated UI was extremely fast. I am very impressed with the implementation of both the Swift language and the SwiftUI framework. As the frameworks start evolving to shed Cocoa and eventually UIKit references, the experience should only get better.</p>
 
         </section>
       </div>
@@ -192,7 +141,7 @@
   <div class="container">
     <div class="columns">
       <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        Last modified:20 September 2019</div>
+        Last modified:1 July 2020</div>
     </div>
   </div></section><footer class="footer footer-dark">
   <div class="container">
