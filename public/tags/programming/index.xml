@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>programming - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/programming/</link>
+        <description>programming - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://burag.com/tags/programming/" rel="self" type="application/rss+xml" /><item>
+    <title>Learning SwiftUI and making a game</title>
+    <link>https://burag.com/posts/learning-swiftui-sumnum-game/</link>
+    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/learning-swiftui-sumnum-game/</guid>
+    <description><![CDATA[When Apple announced SwiftUI about 2 years ago, I was extremely excited. I had previously used Microsoft&rsquo;s WPF and Silverlight with their declarative layour markup language that resonates very well with the way I think about UIs. In the past few months, I finally had a few weekends that I could dedicate to learning SwiftUI at a high level with a simple project.
+As I was looking for a project to tinker with, I remembered a number&rsquo;s game I used to play in middle school when I was back in Istanbul.]]></description>
+</item>
+<item>
+    <title>Brushing up on programming</title>
+    <link>https://burag.com/posts/brushing-up-on-programming/</link>
+    <pubDate>Tue, 03 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/brushing-up-on-programming/</guid>
+    <description><![CDATA[When was the last time you took a week to brush up on the most basic of algorithms and your understanding of data structures? As we get into the rhythm of using our most beloved frameworks, language features and libraries sometimes we do lose touch with the most basic building blocks of computer science. &lsquo;So what?&rsquo; You may ask. When you are designing and building software that will be used by tens of millions of people, it is important to understand the trade-offs.]]></description>
+</item>
+</channel>
+</rss>

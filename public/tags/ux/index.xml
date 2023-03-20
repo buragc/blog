@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ux - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/ux/</link>
+        <description>ux - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Thu, 22 Dec 2016 22:09:20 -0500</lastBuildDate><atom:link href="https://burag.com/tags/ux/" rel="self" type="application/rss+xml" /><item>
+    <title>Conversational UIs are coming</title>
+    <link>https://burag.com/posts/conversational-uis-are-coming/</link>
+    <pubDate>Thu, 22 Dec 2016 22:09:20 -0500</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/conversational-uis-are-coming/</guid>
+    <description><![CDATA[Conversational style UIs are gaining more popularity. In an era where people are living and breathing text messages and have an attention span for only nuggets of information, I foresee these conversational apps to become the norm.
+I would even argue that as speech and video recognition gets more and more accurate, we will have these conversational apps morph into virtual assistants.
+Check out this news app that can take a news piece and break it down and make it a conversation.]]></description>
+</item>
+<item>
+    <title>Impact of bad UX in the physical world</title>
+    <link>https://burag.com/posts/bad-ux-at-ticket-kiosks-in-italy/</link>
+    <pubDate>Wed, 12 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/bad-ux-at-ticket-kiosks-in-italy/</guid>
+    <description><![CDATA[UX in Italy: 18 screens to buy a train ticket I was in Cinque Terre region in north eastern Italy for a week last month. It is a UNESCO Heritage Site and I definitely recommend it, especially if you like hiking.
+Part of our plan was to take trains to neighboring towns and do one-way hikes. Every time we approached the train station to buy our tickets, we ended up seeing a long line of tourists and locals queued up, waiting in 95F degree weather frustrated.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,18 +1,23 @@
-+++
-slug = "/work"
-title = "work"
-date = "2019-09-20T22:30:45-05:00"
-+++
+---
+title: "Work"
+date: 2019-09-20T22:30:45-05:00
+draft: false
+---
+
+I am a product focused engineering leader and I love building teams that ship products. Over the course of 20 years, I've found myself working in health, finance, and tech industries. Although I have switched to engineering management 10+ years ago, I still actively tinker in code.
+
+Below is a high level overview of my work, for more details please see [my LinkedIn profile.](https://www.linkedin.com/in/buragc)
+
 
 # LinkedIn (June 2019 - Present)
-I am currently working at LinkedIn as an engineering manager focusing on advertiser systems and experience.
+I currently work at LinkedIn, where I lead multiple teams focusing on LinkedIn advertiser systems and member ad experience. 
 
---
+
 
 # Instagram (July 2018 - June 2019)
 I worked as an Engineering Manager at Instagram, primarily working with data engineers and data systems. My focus areas included mobile application (iOS / Android) performance & reliability and server side efficiency. 
 
---
+
 
 # Abaka (July 2017 - July 2018)
 
@@ -24,7 +29,7 @@ I co-founded [Abaka.io](www.abaka.io) to create a better patient experience and 
 * Provider web applications using NodeJS, TypeScript and React
 * Patient mobile applications (iOS and Android) using ReactNative
 
---
+
 
 # Meetup (April 2016 - July 2017)
 I worked at [Meetup.com](www.meetup.com) as the Director of Core & Data Engineering to make it easier for people to self-organize around their passions. My teams are responsible for running all back-end services, data pipelines and recommendations that power Meetup.
@@ -37,17 +42,15 @@ I worked at [Meetup.com](www.meetup.com) as the Director of Core & Data Engineer
 * Helping Meetup replatform from a monolithic codebase to micro-services
 * Leading the Core Platform team that serves all micro-service platform needs of the organization
 * Developed a micro-service discovery platform to help engineering teams discover and utilize micro-services faster
-* and I also loved hiring and building a team of top notch data, machine learning, platform and product engineers
-<br/>
---
+* Built a team of top notch data, machine learning, platform and product engineers
+
+
 
 # Curia (2014-2016)
 Making the right connections with other professionals may literally change one's career. If you attend conferences, meetups or other networking events you may have noticed how hard it is to make meaningful connections in a short amount of time. [Curia](http://www.getcuria.com) helps people discover the right professionals to connect with. After a beta period in NYC and SF, I joined Meetup in 2016 where I work with teams to improve the in-meetup experience using a similar approach.
-<br/>
 
---
 
-# EPAM Systems (2013-2016)
+# EPAM Systems (2014-2016)
 
 I worked as the Director of Technology Solutions at [EPAM Systems](www.epam.com) (NYSE: EPAM) from 2014 to 2016 after EPAM acquired Netsoft USA. In this role, I worked with EPAM's clients to develop and introduce software solutions & work with EPAM's UX and Dev teams teams to ensure successful design and delivery of software products.
 
@@ -58,11 +61,9 @@ I focused on Big Data, APIs and mobile solutions to create state of the art enga
 * Spearheaded the creation of EPAM's Healthcare Big Data Accelerator.
 * Designed and managed the development of Mobile Health Plan Application accelerator for EPAM. Including all product management, technology strategy and development.
 * Created the overall initial architecture of a genomics start-up that is changing the way personalized care is delivered around the world.
-<br/>
 
---
 
-# Netsoft USA (until 2012)
+# Netsoft USA (until 2014)
 I worked at Netsoft USA, a boutique product development company in NYC acquired by EPAM Systems in 2014, in various roles ranging from Developer to Principal Architect. During my time at Netsoft I;
 
 * Developed clinical big-data strategy of a Fortune 500 healthcare organization.

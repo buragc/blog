@@ -1,522 +1,109 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge"><title>Personal website and blog</title>
-    
-<link rel="icon" type="image/png" href="/images/favicon.png" />
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Fixing Tmobile&#39;s activation form - Personal website and blog</title><meta name="Description" content="Using Chrome developer tools to get things done"><meta property="og:title" content="Fixing Tmobile&#39;s activation form" />
+<meta property="og:description" content="Using Chrome developer tools to get things done" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.burag.com/post/fixing-tmobile-activation-form/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2013-10-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-10-21T00:00:00+00:00" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fixing Tmobile&#39;s activation form"/>
+<meta name="twitter:description" content="Using Chrome developer tools to get things done"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.burag.com/post/fixing-tmobile-activation-form/" /><link rel="prev" href="https://www.burag.com/post/pomodoro-for-remote-workers/" /><link rel="next" href="https://www.burag.com/post/dynamic-resources-in-enterprise/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Fixing Tmobile's activation form",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.burag.com\/post\/fixing-tmobile-activation-form\/"
+        },"genre": "post","keywords": "tmobile, hack","wordcount":  425 ,
+        "url": "https:\/\/www.burag.com\/post\/fixing-tmobile-activation-form\/","datePublished": "2013-10-21T00:00:00+00:00","dateModified": "2013-10-21T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": "Using Chrome developer tools to get things done"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.min.4975262a15762ea55e3210252d0702fdee7ac331442afdb5445140abbf634845.css" integrity="sha256-SXUmKhV2LqVeMhAlLQcC/e56wzFEKv21RFFAq79jSEU=">
-<link rel="stylesheet" type="text/css" href="/css/monokai-sublime.9.15.8.min.min.3a5d282f03108101d715e80fd4c07b55502ec4673fc063f2b6e415d4def5b354.css" integrity="sha256-Ol0oLwMQgQHXFegP1MB7VVAuxGc/wGPytuQV1N71s1Q=">
-<link rel="stylesheet" type="text/css" href="/css/icons.min.6dc06ab2f3698408961127b959a0f87ba0426dfa1df4cb25a55fa434db7222c5.css" integrity="sha256-bcBqsvNphAiWESe5WaD4e6BCbfod9MslpV&#43;kNNtyIsU=">
-<link rel="stylesheet" type="text/css" href="/css/mycss.min.a48e49865b775003cbca07751a1a56a863c79bfddbe6eb80ad52f4e548507de9.css" integrity="sha256-pI5Jhlt3UAPLygd1GhpWqGPHm/3b5uuArVL05UhQfek=">
-
-  </head>
-  <body>
-    
-    <div id="preloader">
-      <div id="status"></div>
-    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-
-      
-      
-      
-      <a class="navbar-item">
-        <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
-          <svg width="1000px" height="1000px">
-            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-            <path class="path2" d="M 300 500 L 700 500"></path>
-            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-          </svg>
-          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Personal website and blog">My cool site</a>
         </div>
-        <div class="navbar-item left-menu-icon-wrapper">Tags</div>
-      </a>
-
-      <div class="navbar-item is-expanded"></div>
-      <a class="navbar-item is-hidden-desktop">  
-        <div data-target="navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">Menu</div>
-        <div data-target="navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
-          <svg width="1000px" height="1000px">
-            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-            <path class="path2" d="M 300 500 L 700 500"></path>
-            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-          </svg>
-          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        <div class="menu">
+            <div class="menu-inner"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
         </div>
-      </a>
     </div>
-
-    
-
-    <div id="navbar-menu" class="navbar-menu is-static">
-      
-      <div class="navbar-end">
-        <a href="/about" class="navbar-item is-secondary">
-          About Me
-        </a><a href="https://www.burag.com/post/" class="navbar-item is-secondary">Posts</a><a href="/work" class="navbar-item is-secondary">
-          Work
-        </a>
-      </div>
-    </div>
-
-
-
-
-  </div>
-</nav><nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
-  <div class="container">
-      <div class="navbar-brand">
-  
-        
-        
-        
-        <a class="navbar-item">
-          <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
-            <svg width="1000px" height="1000px">
-              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-              <path class="path2" d="M 300 500 L 700 500"></path>
-              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-            </svg>
-            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
-          </div>
-          <div class="navbar-item left-menu-icon-wrapper">Tags</div>
-        </a>
-  
-        <div class="navbar-item is-expanded"></div>
-        <a class="navbar-item is-hidden-desktop">  
-          <div data-target="cloned-navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">Menu</div>
-          <div data-target="cloned-navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
-            <svg width="1000px" height="1000px">
-              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-              <path class="path2" d="M 300 500 L 700 500"></path>
-              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-            </svg>
-            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
-          </div>
-        </a>
-      </div>
-  
-      
-  
-      <div id="cloned-navbar-menu" class="navbar-menu is-static">
-        <div class="navbar-end">
-          <a href="/about" class="navbar-item is-secondary">
-            About Me
-          </a><a href="https://www.burag.com/post/" class="navbar-item is-secondary">Posts</a></div>
-      </div>
-  
-  
-  
-  
-    </div>
-  </nav>
-<section class="section is-medium">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title is-2 section-title">Fixing Tmobile&#39;s activation form</h1>
-        <h5 class="subtitle is-5 is-muted"></h5>
-        <div class="divider"></div>
-        
-        <section class="section content has-text-justified">
-          <p>I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it <a href="http://www.google.com/googlevoice/about.html">has many advantages such as ringing many phone numbers</a>. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can <a href="http://www.amazon.com/gp/product/B00BUV7C9A/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00BUV7C9A&amp;linkCode=as2&amp;tag=books0984-20">purchase an Obi for about $50 on Amazon</a>. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, <a href="http://productforums.google.com/forum/#!msg/voice/sIk31W88SHA/A17A3KtsfIoJ">You need to first port your number to a wireless carrier</a> and then to Google Voice. I chose to do this process by using TMobile. I ordered a <a href="http://www.amazon.com/T-Mobile-Tmobile-Mobile-Prepaid-Activation/dp/B003X7RY06/ref=pd_cp_cps_0">Prepaid SIM card activtion kit from Amazon</a> for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at <a href="http://prepaid-phones.t-mobile.com/prepaid-activate">http://prepaid-phones.t-mobile.com/prepaid-activate</a>. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &ldquo;hidden&rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE) <a href="http://buragc.files.wordpress.com/2013/10/capture2.png"><img src="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487" alt="Image"></a> Now hit the inspect element button to start looking at the form: <a href="http://buragc.files.wordpress.com/2013/10/inspectelement.png"><img src="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487" alt="Image"></a> Hit Control + F to bring up the search box in the form: <a href="http://buragc.files.wordpress.com/2013/10/find.png"><img src="http://buragc.files.wordpress.com/2013/10/find.png?w=400" alt="Image"></a> Now search for &ldquo;autofill&rdquo; you will something similar to the following: <a href="http://buragc.files.wordpress.com/2013/10/inputhidden.png"><img src="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487" alt="Image"></a> Double click on the &ldquo;autorefill&rdquo; part of value=&ldquo;autorefill&rdquo; and change it to value=&ldquo;autorefill1&rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!</p>
-
-        </section>
-      </div>
-    </div>
-  </div>  
-  <div class="container">
-    <div class="columns">
-      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        Last modified:21 October 2013</div>
-    </div>
-  </div></section><footer class="footer footer-dark">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <img src="/footer.svg" alt="">
-        
-      </div>
-      
-    <div class="column">
-        <div class="footer-column">
-          <div class="footer-header">
-              <h3>Website</h3>
-          </div>
-          <ul class="link-list">
-            <li>
-                <a href="/about">
-                  <span class="icon"><i class="fa fa-cube"></i></span>
-                  About Me
-                </a>
-              </li>
-            <li>
-              <a href="/post">
-                <span class="icon"><i class="fa fa-tag"></i></span> 
-                Posts
-              </a>
-            </li>
-          </ul>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Personal website and blog">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
         </div>
-      </div>
-    
-      <div class="column">
-        <div class="footer-column">
-          <div class="footer-header">
-              <h3>Contacts</h3>
-          </div>
-          <ul class="link-list">
-            <li>
-              <a href="https://www.linkedin.com/in/buragc/" target="_blank">
-                <span class="icon"><i class="fa fa-linkedin"></i></span>
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a href="mailto:burag@burag.com" target="_blank">
-                <span class="icon"><i class="fa fa-envelope"></i></span>
-                burag@burag.com
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="footer-column">
-          <div class="footer-header">
-              <h3>Copyright</h3>
-          </div>
-          <ul class="link-list">
-            <li>
-              <a>
-                <span class="icon"><i class="fa fa-copyright"></i></span>
-                Burag Cetinkaya  - 2019
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
+        <div class="menu" id="menu-mobile"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
     </div>
-  </div>
-</footer>
-    <div id="backtotop"><a href="#"></a></div><div class="sidebar">
-  <div class="sidebar-header"><img src="/sidebar.svg" alt="">
-    
-    <a class="sidebar-close" href="javascript:void(0);">
-      <i data-feather="x"></i>
-    </a>
-  </div>
-  <div class="inner">
-    <ul class="sidebar-menu">
-      <li class="no-children">
-          <a href="/tags">
-            <div class="columns">
-              <table width="100%">  
-                <tr>
-                  <td class="">
-                    <span class="icon"><i class="fa fa-cubes"></i></span>All Tags
-                  </td>
-                  <td class="has-text-right" >
-                      
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </a>
-      <li class="no-children">
-          <a href="/tags/engineering">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>engineering</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">3</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/programming">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>programming</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">2</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/services">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>services</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">2</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/ux">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ux</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">2</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/conversational-ui">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>conversational ui</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/data">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>data</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/enterprise">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>enterprise</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/graph">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>graph</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/hack">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>hack</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/healthcare">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>healthcare</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/italy">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>italy</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/management">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>management</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/swift">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>swift</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/ticket">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ticket</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li>
-      <li class="no-children">
-          <a href="/tags/tmobile">
-            <div class="columns">
-              
-              <table width="100%">  
-                  <tr>
-                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>tmobile</td>
-                    <td class="has-text-right" >
-                        <div class="tag-number">1</div>
-                      
-                    </td>
-                    
-                  </tr>
-              </table>
-              
-            </div>
-          </a>
-      </li></ul>
-  </div>
-</div>
+</header><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Fixing Tmobile&#39;s activation form</h1><div class="content" id="content"><p>I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it <a href="http://www.google.com/googlevoice/about.html" target="_blank" rel="noopener noreffer ">has many advantages such as ringing many phone numbers</a>. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone. You can <a href="http://www.amazon.com/gp/product/B00BUV7C9A/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00BUV7C9A&amp;linkCode=as2&amp;tag=books0984-20" target="_blank" rel="noopener noreffer ">purchase an Obi for about $50 on Amazon</a>. If you currently have land line service with your triple play offering with Comcast, Verizon Fios etc, it is not possible to directly port your number to Google Voice, <a href="http://productforums.google.com/forum/#!msg/voice/sIk31W88SHA/A17A3KtsfIoJ" target="_blank" rel="noopener noreffer ">You need to first port your number to a wireless carrier</a> and then to Google Voice. I chose to do this process by using TMobile. I ordered a <a href="http://www.amazon.com/T-Mobile-Tmobile-Mobile-Prepaid-Activation/dp/B003X7RY06/ref=pd_cp_cps_0" target="_blank" rel="noopener noreffer ">Prepaid SIM card activtion kit from Amazon</a> for about $10. Then you need to put this into a spare phone and activate the number. Tmobile has an activation site at <a href="http://prepaid-phones.t-mobile.com/prepaid-activate" target="_blank" rel="noopener noreffer ">http://prepaid-phones.t-mobile.com/prepaid-activate</a>. It is fairly straight forward to go through. However, when you hit Step 5 to fund your pre-paid account. This is where the web site drives you crazy. You literally cannot go forward because of a Form Validation error where it says the Auto-Pay date is not set. Surprisingly, there is no such field on the form! After pulling my hair out, I resorted to a little hack that helped me get through the process. Before I show you what you need to do, here is what is happening: Behind the scenes, the form is populated with an Automatic Payment field. So the server thinks that you are trying to set recurring payments while you are only trying to do a one time payment. What we need to fix is to get into the &ldquo;hidden&rdquo; fields of the form and change the value so the server realizes that we are not trying to set up a recurring payment. Here is how to do it; just open the browser with Chrome (or IE) <a href="http://buragc.files.wordpress.com/2013/10/capture2.png" target="_blank" rel="noopener noreffer "><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487"
+        data-srcset="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487, http://buragc.files.wordpress.com/2013/10/capture2.png?w=487 1.5x, http://buragc.files.wordpress.com/2013/10/capture2.png?w=487 2x"
+        data-sizes="auto"
+        alt="http://buragc.files.wordpress.com/2013/10/capture2.png?w=487"
+        title="Image" /></a> Now hit the inspect element button to start looking at the form: <a href="http://buragc.files.wordpress.com/2013/10/inspectelement.png" target="_blank" rel="noopener noreffer "><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487"
+        data-srcset="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487, http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487 1.5x, http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487 2x"
+        data-sizes="auto"
+        alt="http://buragc.files.wordpress.com/2013/10/inspectelement.png?w=487"
+        title="Image" /></a> Hit Control + F to bring up the search box in the form: <a href="http://buragc.files.wordpress.com/2013/10/find.png" target="_blank" rel="noopener noreffer "><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="http://buragc.files.wordpress.com/2013/10/find.png?w=400"
+        data-srcset="http://buragc.files.wordpress.com/2013/10/find.png?w=400, http://buragc.files.wordpress.com/2013/10/find.png?w=400 1.5x, http://buragc.files.wordpress.com/2013/10/find.png?w=400 2x"
+        data-sizes="auto"
+        alt="http://buragc.files.wordpress.com/2013/10/find.png?w=400"
+        title="Image" /></a> Now search for &ldquo;autofill&rdquo; you will something similar to the following: <a href="http://buragc.files.wordpress.com/2013/10/inputhidden.png" target="_blank" rel="noopener noreffer "><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487"
+        data-srcset="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487, http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487 1.5x, http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487 2x"
+        data-sizes="auto"
+        alt="http://buragc.files.wordpress.com/2013/10/inputhidden.png?w=487"
+        title="Image" /></a> Double click on the &ldquo;autorefill&rdquo; part of value=&ldquo;autorefill&rdquo; and change it to value=&ldquo;autorefill1&rdquo; by adding a number to the end. Now re-fill the rest of the form as you would and submit, you should be all set!</p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
 
-
-<script src="/js/jquery-2.2.4.js"></script>
-<script src="/js/feather.4.22.0.js"></script>
-<script src="/js/modernizr-2.8.3.js"></script>
-<script src="/js/fresh_new.js"></script>
-<script src="/js/highlight.9.15.8.pack.js"></script>
-<script src="/js/highlightjs-line-numbers.2.7.0.min.js"></script><script>hljs.initHighlightingOnLoad();</script>
-<script>hljs.initLineNumbersOnLoad();</script>
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelectorAll('.codeinline').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
-  });
-</script></body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

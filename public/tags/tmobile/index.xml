@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>tmobile - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/tmobile/</link>
+        <description>tmobile - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Mon, 21 Oct 2013 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://burag.com/tags/tmobile/" rel="self" type="application/rss+xml" /><item>
+    <title>Fixing Tmobile&#39;s activation form</title>
+    <link>https://burag.com/posts/fixing-tmobile-activation-form/</link>
+    <pubDate>Mon, 21 Oct 2013 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/fixing-tmobile-activation-form/</guid>
+    <description><![CDATA[I was in the process of porting my home phone number to Google Voice and using Obi to connect to my home phone. For those of you who have not heard of it yet; Google Voice offers free calling within the US and Canada and it has many advantages such as ringing many phone numbers. Obi on the other hand is a nice SIP client that can work with Google Voice and other VoIP providers and connect them to your house phone.]]></description>
+</item>
+</channel>
+</rss>

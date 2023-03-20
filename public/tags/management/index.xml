@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>management - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/management/</link>
+        <description>management - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Fri, 10 Mar 2023 14:02:18 -0500</lastBuildDate><atom:link href="https://burag.com/tags/management/" rel="self" type="application/rss+xml" /><item>
+    <title>Establishing team communication defaults for better focus</title>
+    <link>https://burag.com/posts/team-communication-defaults-for-better-focus/</link>
+    <pubDate>Fri, 10 Mar 2023 14:02:18 -0500</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/team-communication-defaults-for-better-focus/</guid>
+    <description><![CDATA[Engineers need uninterrupted blocks of time to deeply focus and solve problems. However, as systems we deal with become more complex, there is an increasing level of specialization and combined with increasing number of XFN partners and stakeholders, resulting in a complex communication web. Without a structure, this easily results in unmanageable number of meetings, and a high unread badge count on email/slack that ends up taking considerable amount of time from engineers, impacting overall productivity.]]></description>
+</item>
+<item>
+    <title>Managers should not be messengers</title>
+    <link>https://burag.com/posts/managers-not-messengers/</link>
+    <pubDate>Wed, 01 Jun 2016 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/managers-not-messengers/</guid>
+    <description><![CDATA[This is a pet peeve of mine; everytime I see a manager trying to get something done by carrying the message between folks he manages and upper management, it makes me cringe. If you are an engineering manager and find yourself in this situation; change the company or change your company.
+You need to ask for things you can manage. What do we mean by &ldquo;manage&rdquo; ? A well defined area in which you have accountability and decision making ability.]]></description>
+</item>
+</channel>
+</rss>

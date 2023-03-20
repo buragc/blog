@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>enterprise - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/enterprise/</link>
+        <description>enterprise - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Wed, 08 Jan 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://burag.com/tags/enterprise/" rel="self" type="application/rss+xml" /><item>
+    <title>Dynamic resource allocation in your data center</title>
+    <link>https://burag.com/posts/dynamic-resources-in-enterprise/</link>
+    <pubDate>Wed, 08 Jan 2014 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/dynamic-resources-in-enterprise/</guid>
+    <description><![CDATA[By now all of us architects are very much used to the idea of spinning a new server in the cloud and scaling our solution horizontally as needed. Virtually nonexistent setup times and a good API provided by cloud vendors makes this a possibility. Infrastructure has come a long way in the form of IAAS and PAAS. Also, open source software has been a great enabler of this movement; namely deployment automation technologies and linux distributions that are customized per use case.]]></description>
+</item>
+</channel>
+</rss>

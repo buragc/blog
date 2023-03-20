@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>data - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/data/</link>
+        <description>data - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Tue, 12 Jan 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://burag.com/tags/data/" rel="self" type="application/rss+xml" /><item>
+    <title>graphs all around us</title>
+    <link>https://burag.com/posts/graphs-all-around-us/</link>
+    <pubDate>Tue, 12 Jan 2016 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/graphs-all-around-us/</guid>
+    <description><![CDATA[Do you ever think about how data in your organization is connected or what is buried in the tables/rows that your app writes to? Graph databases have been around for a while but for the first time they are becoming so accessible to app developers with products like Neo4j.
+I have been working with NoSQL databases in the past 2 years but I just started getting into graph databases in the past 6 months and it totally changed my perception of the value of data.]]></description>
+</item>
+</channel>
+</rss>

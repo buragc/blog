@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>healthcare - Tag - Burag Cetinkaya</title>
+        <link>https://burag.com/tags/healthcare/</link>
+        <description>healthcare - Tag - Burag Cetinkaya</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buragc@gmail.com (Burag Cetinkaya)</managingEditor>
+            <webMaster>buragc@gmail.com (Burag Cetinkaya)</webMaster><lastBuildDate>Thu, 03 Mar 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://burag.com/tags/healthcare/" rel="self" type="application/rss+xml" /><item>
+    <title>HIMSS 2016</title>
+    <link>https://burag.com/posts/himss-2016/</link>
+    <pubDate>Thu, 03 Mar 2016 00:00:00 &#43;0000</pubDate>
+    <author>Burag Cetinkaya</author>
+    <guid>https://burag.com/posts/himss-2016/</guid>
+    <description><![CDATA[I was at HIMSS with EPAM for the past few days. It’s been fun and exhausting at the same time. Here are some observations:
+Population health has turned into a buzzword. Everybody talks about it but very few companies can actually describe how they will move the needle. Big Data is yet another buzzword. Without clear definition, everybody is claiming they do big data. Collaboration tools; from data aggregation to secure messaging across providers have matured quite a bit.]]></description>
+</item>
+</channel>
+</rss>
